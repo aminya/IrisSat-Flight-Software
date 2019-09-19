@@ -1,6 +1,6 @@
 <project name="cdh_tsat5_system" version="1.1">
     <ProjectDirectory>
-        C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
+        C:\Users\Joseph Howarth\Documents\MBSat\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,19 +9,30 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
+        C:\Users\Joseph Howarth\Documents\MBSat\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
-    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
+    <ProgrammingInterface>
+        JTAGMode
+    </ProgrammingInterface>
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
         <name>
-            E2001XEMK7
+            E2001XFI0J
         </name>
         <id>
-            E2001XEMK7
+            E2001XFI0J
         </id>
     </programmer>
+    <Server>
+        <name>
+            localhost
+        </name>
+        <port>
+            80
+        </port>
+    </Server>
     <configuration>
         <Hardware>
             <FlashPro>
@@ -67,10 +78,18 @@
                 <ClkMode>
                     FreeRunningClk
                 </ClkMode>
-                <ProgrammingMode>
-                    JTAGMode
-                </ProgrammingMode>
             </FlashPro5>
+            <FlashPro6>
+                <TCK>
+                    4000000
+                </TCK>
+                <SCK>
+                    20000000
+                </SCK>
+                <ClkMode>
+                    FreeRunningClk
+                </ClkMode>
+            </FlashPro6>
         </Hardware>
         <Device type="ACTEL">
             <Name>
@@ -79,6 +98,9 @@
             <Custom>
                 M2S010
             </Custom>
+            <SpiFlashFile>
+                
+            </SpiFlashFile>
             <Algo type="unknown">
                 <irlength>
                     8
