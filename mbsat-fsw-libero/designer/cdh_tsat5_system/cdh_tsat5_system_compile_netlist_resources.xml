@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)</text>
-<text>Date: Thu Aug 29 20:40:36 2019
+<text>Date: Fri Oct 11 15:36:26 2019
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\Joseph Howarth\Documents\MBSat\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn</cell>
+ <cell>C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.edn</cell>
 </row>
 </table>
 <section><name>Options</name></section>
