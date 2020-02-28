@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-7FLV13P
 
-# Fri Oct 11 15:36:12 2019
+# Fri Feb 28 11:14:15 2020
 
 #Implementation: synthesis
 
@@ -523,7 +523,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 11 15:36:13 2019
+# Fri Feb 28 11:14:16 2020
 
 ###########################################################]
 
@@ -550,7 +550,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 11 15:36:13 2019
+# Fri Feb 28 11:14:16 2020
 
 ###########################################################]
 @END
@@ -560,7 +560,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 11 15:36:13 2019
+# Fri Feb 28 11:14:16 2020
 
 ###########################################################]
 
@@ -587,12 +587,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 11 15:36:15 2019
+# Fri Feb 28 11:14:18 2020
 
 ###########################################################]
 Premap Report
 
-# Fri Oct 11 15:36:15 2019
+# Fri Feb 28 11:14:18 2020
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -742,12 +742,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 51MB peak: 138MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Oct 11 15:36:16 2019
+# Fri Feb 28 11:14:19 2020
 
 ###########################################################]
 Map & Optimize Report
 
-# Fri Oct 11 15:36:16 2019
+# Fri Feb 28 11:14:19 2020
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -952,7 +952,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Oct 11 15:36:19 2019
+# Timing Report written on Fri Feb 28 11:14:22 2020
 #
 
 
@@ -1234,6 +1234,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 28MB peak: 141MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:02s cputime
-# Fri Oct 11 15:36:19 2019
+# Fri Feb 28 11:14:23 2020
 
 ###########################################################]

@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
 Hostname:    DESKTOP-7FLV13P
-Date:        Fri Oct 11 15:36:11 2019
+Date:        Fri Feb 28 11:14:14 2020
 Version:     N-2018.03M-SP1-1
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log cdh_tsat5_system_syn.tcl
@@ -22,26 +22,26 @@ Running: synthesis in foreground
 Running cdh_tsat5_system_syn|synthesis
 
 Running Flow: compile (Compile) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:12 2019
+# Fri Feb 28 11:14:15 2020
 
 Running Flow: compile_flow (Compile Process) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:12 2019
+# Fri Feb 28 11:14:15 2020
 
 Running: compiler (Compile Input) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:12 2019
+# Fri Feb 28 11:14:15 2020
 Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_comp.srs to C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srs
 
 compiler completed
-# Fri Oct 11 15:36:14 2019
+# Fri Feb 28 11:14:17 2020
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:14 2019
+# Fri Feb 28 11:14:17 2020
 
 multi_srs_gen completed
-# Fri Oct 11 15:36:15 2019
+# Fri Feb 28 11:14:18 2020
 
 Return Code: 0
 Run Time:00h:00m:01s
@@ -49,28 +49,28 @@ Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat
 Complete: Compile Process on cdh_tsat5_system_syn|synthesis
 
 Running: premap (Premap) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:15 2019
+# Fri Feb 28 11:14:18 2020
 
 premap completed with warnings
-# Fri Oct 11 15:36:16 2019
+# Fri Feb 28 11:14:19 2020
 
 Return Code: 1
 Run Time:00h:00m:01s
 Complete: Compile on cdh_tsat5_system_syn|synthesis
 
 Running Flow: map (Map) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:16 2019
+# Fri Feb 28 11:14:19 2020
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on cdh_tsat5_system_syn|synthesis
-# Fri Oct 11 15:36:16 2019
+# Fri Feb 28 11:14:19 2020
 Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_m.srm to C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srm
 
 fpga_mapper completed with warnings
-# Fri Oct 11 15:36:19 2019
+# Fri Feb 28 11:14:23 2020
 
 Return Code: 1
-Run Time:00h:00m:03s
+Run Time:00h:00m:04s
 Complete: Map on cdh_tsat5_system_syn|synthesis
 Complete: Logic Synthesis on cdh_tsat5_system_syn|synthesis
 TCL script complete: "cdh_tsat5_system_syn.tcl"

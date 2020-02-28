@@ -339,5 +339,5 @@ Implementation;Synthesis||MT420||@W:Found inferred clock cdh_tsat5_system_sb_FAB
 Implementation;Compile;RootName:cdh_tsat5_system
 Implementation;Place and Route;RootName:cdh_tsat5_system
 Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||cdh_tsat5_system_layout_log.log;liberoaction://open_report/file/cdh_tsat5_system_layout_log.log||(null);(null)
-Implementation;Generate Bitstream||(null)||Please refer to the log file for details||cdh_tsat5_system_generateBitstream.log;liberoaction://open_report/file/cdh_tsat5_system_generateBitstream.log||(null);(null)
 Implementation;Generate Bitstream;RootName:cdh_tsat5_system
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details||cdh_tsat5_system_generateBitstream.log;liberoaction://open_report/file/cdh_tsat5_system_generateBitstream.log||(null);(null)
