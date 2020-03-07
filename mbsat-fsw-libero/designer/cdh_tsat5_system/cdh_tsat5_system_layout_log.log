@@ -11,13 +11,13 @@ Incremental              : OFF
 INFO: Reading User PDC file C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 15 fixed I/O macros, 3 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.600.0 
-Design: cdh_tsat5_system                Started: Fri Feb 28 11:14:34 2020
+Design: cdh_tsat5_system                Started: Wed Mar  4 16:01:49 2020
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,35 +33,35 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: cdh_tsat5_system                
-Finished: Fri Feb 28 11:14:39 2020
+Finished: Wed Mar  4 16:01:55 2020
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
+Total Memory Usage: 115.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Wed Mar  4 16:01:59 2020
+
+
+Router completed successfully.
+
+Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Wed Mar  4 16:02:04 2020
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 115.2 Mbytes
+Total Memory Usage: 429.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Fri Feb 28 11:14:43 2020
+Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Wed Mar  4 16:02:06 2020
 
 
 Router completed successfully.
 
 Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Fri Feb 28 11:14:47 2020
+Finished: Wed Mar  4 16:02:10 2020
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
-Total Memory Usage: 429.4 Mbytes
-                        o - o - o - o - o - o
-
-
-Router 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Fri Feb 28 11:14:49 2020
-
-
-Router completed successfully.
-
-Design: C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Fri Feb 28 11:14:53 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
-Total Memory Usage: 429.6 Mbytes
+Total Memory Usage: 429.2 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -71,6 +71,6 @@ Resource Usage
 | 4LUT          | 137  | 12084 | 1.13       |
 | DFF           | 87   | 12084 | 0.72       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 151  | 12084 | 1.25       |
+| Logic Element | 145  | 12084 | 1.20       |
 +---------------+------+-------+------------+
 

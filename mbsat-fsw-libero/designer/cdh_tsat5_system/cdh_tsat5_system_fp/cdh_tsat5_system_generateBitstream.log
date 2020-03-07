@@ -3,12 +3,12 @@ Opened 'C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsa
 The 'open_project' command succeeded.
 PDB file 'C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system.pdb' has been loaded successfully.
 DESIGN : cdh_tsat5_system;  CHECKSUM : 0000;  PDB_VERSION : 1.9
-Load Programming Data(s) Finished : Fri Feb 28 11:16:15 2020 (Elapsed time 00:00:01)
+Load Programming Data(s) Finished : Wed Mar 04 16:02:49 2020 (Elapsed time 00:00:01)
 The 'load_programming_data' command succeeded.
 File/Folder 'C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system.ppd' will be overwritten.
 Successfully exported PPD file for currently secured device: 'C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system\cdh_tsat5_system.ppd'; file programs Fabric.
-Fabric component bitstream digest: fc94bbe270ee7cdd108af3e04b32b93d5cd57fa87516972d45bd7f697aec4ea1
-Finished: Fri Feb 28 11:16:23 2020 (Elapsed time 00:00:08)
+Fabric component bitstream digest: 179a55430bccbe80759c5fd6dcffde3bedea3e58a2c2b42d3733d0d2630e8822
+Finished: Wed Mar 04 16:02:58 2020 (Elapsed time 00:00:09)
 
 The 'export_single_ppd' command succeeded.
 The 'set_programming_file' command succeeded.

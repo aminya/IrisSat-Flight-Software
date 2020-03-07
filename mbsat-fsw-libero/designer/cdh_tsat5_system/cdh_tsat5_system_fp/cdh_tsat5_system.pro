@@ -17,12 +17,12 @@
     <ProgrammingInterface>
         JTAGMode
     </ProgrammingInterface>
-    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="UndefConn">
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
         <name>
-            E2001XFI0J
+            E2001Q8WDF
         </name>
         <id>
-            E2001XFI0J
+            E2001Q8WDF
         </id>
     </programmer>
     <Server>
