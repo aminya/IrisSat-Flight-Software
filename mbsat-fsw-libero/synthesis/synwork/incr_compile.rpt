@@ -14,59 +14,111 @@ Hostname: DESKTOP-7FLV13P
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
 
-Modified Files: 0
+Modified Files: 20
 FID:  path (prevtimestamp, timestamp)
+0        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v (N/A, 2018-12-21 00:52:13)
+1        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v (N/A, 2018-12-21 00:52:16)
+2        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2018-12-21 00:52:16)
+3        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2018-12-21 00:52:16)
+4        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2018-12-21 00:52:16)
+5        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v (N/A, 2020-03-14 10:41:10)
+6        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v (N/A, 2020-03-14 10:41:10)
+7        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v (N/A, 2020-03-14 10:41:10)
+8        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_slave.v (N/A, 2020-03-14 10:41:10)
+9        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v (N/A, 2020-03-21 22:51:29)
+10       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v (N/A, 2020-03-21 22:51:29)
+11       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v (N/A, 2020-03-21 22:51:29)
+12       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2020-03-14 10:41:10)
+13       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (N/A, 2020-03-14 10:41:10)
+14       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12)
+15       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v (N/A, 2020-03-22 00:20:29)
+16       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32)
+17       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32)
+18       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v (N/A, 2020-03-21 22:46:54)
+19       C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v (N/A, 2020-03-21 22:46:54)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 20
 MID:  lib.cell.view
+0        COREAPB3_LIB.CAPB3II.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v (N/A, 2020-03-21 22:51:29) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v (N/A, 2020-03-21 22:51:29) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+1        COREAPB3_LIB.CAPB3O.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v (N/A, 2020-03-21 22:51:29) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v (N/A, 2020-03-21 22:51:29) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+2        COREAPB3_LIB.CoreAPB3.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v (N/A, 2020-03-21 22:51:29) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+3        work.CORESPI.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+4        work.CSPIlI.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+5        work.CoreResetP.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+6        work.MSS_010.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v (N/A, 2020-03-21 22:46:54) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v (N/A, 2020-03-21 22:46:54) <-- (module definition)
+7        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+8        work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+9        work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+10       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+11       work.XTLOSC.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+12       work.XTLOSC_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2020-03-14 10:41:12) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+13       work.cdh_tsat5_system_sb.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (module definition)
+14       work.cdh_tsat5_system_sb_CCC_0_FCCC.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v (N/A, 2020-03-22 00:20:29) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+15       work.cdh_tsat5_system_sb_FABOSC_0_OSC.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (N/A, 2020-03-22 00:20:32) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+16       work.cdh_tsat5_system_sb_MSS.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v (N/A, 2020-03-21 22:46:54) <-- (module definition)
+17       work.coreresetp_pcie_hotreset.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+18       work.spi_master.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
+19       work.spi_slave.verilog may have changed because the following files changed:
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v (N/A, 2020-03-14 10:41:10) <-- (may instantiate this module)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_slave.v (N/A, 2020-03-14 10:41:10) <-- (module definition)
+                        C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (N/A, 2020-03-22 00:20:32) <-- (may instantiate this module)
 
 *******************************************************************
-Unmodified files: 21
+Unmodified files: 0
 FID:  path (timestamp)
-0        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v (2018-12-21 00:52:13)
-1        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v (2018-12-21 00:52:16)
-2        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v (2018-12-21 00:52:16)
-3        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2018-12-21 00:52:16)
-4        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v (2018-12-21 00:52:16)
-5        C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v (2019-09-30 18:41:15)
-6        C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v (2019-09-30 18:41:15)
-7        C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v (2019-09-30 18:41:15)
-8        C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_slave.v (2019-09-30 18:41:15)
-9        C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v (2019-09-30 18:41:15)
-10       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v (2019-09-30 18:41:15)
-11       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v (2019-09-30 18:41:15)
-12       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2019-09-30 18:41:15)
-13       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2019-09-30 18:41:15)
-14       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2019-09-30 18:41:15)
-15       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v (2019-09-30 18:41:15)
-16       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v (2019-09-30 18:41:15)
-17       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v (2019-09-30 18:41:15)
-18       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v (2019-09-30 18:41:15)
-19       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v (2019-09-30 18:41:15)
-20       C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v (2019-09-30 18:41:15)
 
 *******************************************************************
-Unchanged modules: 21
+Unchanged modules: 0
 MID:  lib.cell.view
-0        COREAPB3_LIB.CAPB3II.verilog
-1        COREAPB3_LIB.CAPB3O.verilog
-2        COREAPB3_LIB.CoreAPB3.verilog
-3        work.CORESPI.verilog
-4        work.CORESPI_SFR.verilog
-5        work.CoreResetP.verilog
-6        work.MSS_010.verilog
-7        work.RCOSC_1MHZ.verilog
-8        work.RCOSC_1MHZ_FAB.verilog
-9        work.RCOSC_25_50MHZ.verilog
-10       work.RCOSC_25_50MHZ_FAB.verilog
-11       work.XTLOSC.verilog
-12       work.XTLOSC_FAB.verilog
-13       work.cdh_tsat5_system.verilog
-14       work.cdh_tsat5_system_sb.verilog
-15       work.cdh_tsat5_system_sb_CCC_0_FCCC.verilog
-16       work.cdh_tsat5_system_sb_FABOSC_0_OSC.verilog
-17       work.cdh_tsat5_system_sb_MSS.verilog
-18       work.coreresetp_pcie_hotreset.verilog
-19       work.spi_master.verilog
-20       work.spi_slave.verilog

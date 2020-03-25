@@ -1,0 +1,95 @@
+#--  Synopsys, Inc.
+#--  Version N-2018.03M-SP1-1
+#--  Project file C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb_syn.prj
+#--  Written on Sun Mar 22 00:20:55 2020
+
+
+#project files
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_master.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_slave.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi_sfr.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v"
+add_file -fpga_constraint "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/designer/cdh_tsat5_system_sb/synthesis.fdc"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S010
+set_option -package TQ144
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "cdh_tsat5_system_sb"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -microsemi_enhanced_flow 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./cdh_tsat5_system_sb.edn"
+impl -active "synthesis"

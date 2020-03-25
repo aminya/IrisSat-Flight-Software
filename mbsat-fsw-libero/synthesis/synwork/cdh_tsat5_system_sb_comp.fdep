@@ -1,0 +1,90 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\synthesis\\synwork\\cdh_tsat5_system_sb_comp.srs|-top|cdh_tsat5_system_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\bin64\\c_ver.exe":1545375128
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1545375133
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1545375136
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core_obfuscated\\spi_master.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core_obfuscated\\spi_slave.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core_obfuscated\\corespi_sfr.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core_obfuscated\\corespi.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1584200470
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\work\\cdh_tsat5_system_sb\\CCC_0\\cdh_tsat5_system_sb_CCC_0_FCCC.v":1584854429
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1584200472
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\work\\cdh_tsat5_system_sb\\FABOSC_0\\cdh_tsat5_system_sb_FABOSC_0_OSC.v":1584854432
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS_syn.v":1584848814
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS.v":1584848814
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1584849089
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1584849089
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1584849089
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\MBSat\\libero_update\\ManitobaSat-Flight-Software\\mbsat-fsw-libero\\component\\work\\cdh_tsat5_system_sb\\cdh_tsat5_system_sb.v":1584854432
+0			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v" verilog
+1			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_slave.v" verilog
+2			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v" verilog
+3			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v" verilog
+4			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+5			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+6			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v" verilog
+7			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+8			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v" verilog
+9			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v" verilog
+10			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v" verilog
+11			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+12			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+13			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+14			"C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+3 2
+4 -1
+5 4
+6 -1
+7 -1
+8 7
+9 -1
+10 9
+11 -1
+12 -1
+13 12 11
+14 8 3 5 13 10 6
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 3
+3 14
+4 5
+5 14
+6 14
+7 8
+8 14
+9 10
+10 14
+11 13
+12 13
+13 14
+14 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 13
+module COREAPB3_LIB CAPB3O 12
+module COREAPB3_LIB CAPB3II 11
+module work cdh_tsat5_system_sb 14
+module work cdh_tsat5_system_sb_MSS 10
+module work MSS_010 9
+module work cdh_tsat5_system_sb_FABOSC_0_OSC 8
+module work XTLOSC_FAB 7
+module work RCOSC_25_50MHZ_FAB 7
+module work RCOSC_1MHZ_FAB 7
+module work XTLOSC 7
+module work RCOSC_25_50MHZ 7
+module work RCOSC_1MHZ 7
+module work cdh_tsat5_system_sb_CCC_0_FCCC 6
+module work CoreResetP 5
+module work coreresetp_pcie_hotreset 4
+module work CORESPI 3
+module work CSPIlI 2
+module work spi_slave 1
+module work spi_master 0

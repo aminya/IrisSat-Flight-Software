@@ -1,0 +1,10 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+CCC_0/Primitives,0,0,0,1,1,0,0,0
+CORERESETP_0/Primitives,7,29,0,0,2,0,0,0
+CORESPI_0_0/CSPIOl/Primitives,0,26,0,0,0,0,0,0
+CORESPI_0_0/CSPIOl/genblk4.CSPII1l/Primitives,139,51,0,0,0,0,0,0
+CoreAPB3_0/Primitives,2,0,0,0,0,0,0,0
+FABOSC_0/Primitives,0,0,0,0,1,0,0,1
+Primitives/Primitives,2,0,36,0,0,0,0,0
+cdh_tsat5_system_sb_MSS_0/Primitives,0,0,0,0,0,1,0,0

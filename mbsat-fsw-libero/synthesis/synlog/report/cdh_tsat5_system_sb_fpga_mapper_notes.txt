@@ -1,0 +1,18 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO111 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO106 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":731:0:731:3|Found ROM CSPIll1 (in view: work.spi_master(verilog)) with 11 words by 1 bit.
+@N: MO231 :"c:\users\joseph howarth\documents\mbsat\libero_update\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":294:0:294:5|Found counter in view:work.spi_master(verilog) instance CSPIOO1[7:0] 
+@N: FP130 |Promoting Net MSS_READY_c on CLKINT  I_74 
+@N: FP130 |Promoting Net CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_75 
+@N: FX1056 |Writing EDF file: C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

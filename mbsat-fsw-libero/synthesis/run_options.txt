@@ -1,27 +1,26 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03M-SP1-1
-#--  Project file C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\run_options.txt
-#--  Written on Fri Feb 28 11:14:15 2020
+#--  Project file C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\run_options.txt
+#--  Written on Sun Mar 22 00:20:45 2020
 
 
 #project files
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_master.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_slave.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi_sfr.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v"
-add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system/cdh_tsat5_system.v"
-add_file -fpga_constraint "C:/Users/Joseph Howarth/Documents/MBSat/ManitobaSat-Flight-Software/mbsat-fsw-libero/designer/cdh_tsat5_system/synthesis.fdc"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_master.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_slave.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi_sfr.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v"
+add_file -fpga_constraint "C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/designer/cdh_tsat5_system_sb/synthesis.fdc"
 
 
 
@@ -42,7 +41,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "cdh_tsat5_system"
+set_option -top_module "cdh_tsat5_system_sb"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -92,5 +91,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "./cdh_tsat5_system.edn"
+project -result_file "./cdh_tsat5_system_sb.edn"
 impl -active "synthesis"
