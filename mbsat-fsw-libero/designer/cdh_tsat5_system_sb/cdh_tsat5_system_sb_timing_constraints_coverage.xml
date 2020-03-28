@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 12.600.0.14</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+Date: Sat Mar 28 17:57:53 2020 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>cdh_tsat5_system_sb</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>144 TQ</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>          355</cell>
+ <cell>          355</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          235</cell>
+ <cell>          235</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           27</cell>
+ <cell>           27</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>          617</cell>
+ <cell>          617</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>          355</cell>
+ <cell>          355</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          235</cell>
+ <cell>          235</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           27</cell>
+ <cell>           27</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>          617</cell>
+ <cell>          617</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CCC_0/CCC_INST/INST_CCC_IP:GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>          354</cell>
+ <cell>          354</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          232</cell>
+ <cell>          232</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           26</cell>
+ <cell>           26</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>          612</cell>
+ <cell>          612</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>          354</cell>
+ <cell>          354</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          232</cell>
+ <cell>          232</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           26</cell>
+ <cell>           26</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>          612</cell>
+ <cell>          612</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CAN_RX_F2M</item>
+ <item>FAB_RESET_N</item>
+ <item>GPIO_Input</item>
+ <item>MMUART_0_RXD_F2M</item>
+ <item>m_miso</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CAN_RX_F2M</item>
+ <item>FAB_RESET_N</item>
+ <item>GPIO_Input</item>
+ <item>MMUART_0_RXD_F2M</item>
+ <item>m_miso</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CAN_TX_EN_N_M2F</item>
+ <item>CAN_TX_M2F</item>
+ <item>GPIO_0_M2F</item>
+ <item>GPIO_10_M2F</item>
+ <item>GPIO_11_M2F</item>
+ <item>GPIO_12_M2F</item>
+ <item>GPIO_1_M2F</item>
+ <item>GPIO_3_M2F</item>
+ <item>GPIO_5_M2F</item>
+ <item>GPIO_7_M2F</item>
+ <item>GPIO_8_M2F</item>
+ <item>GPIO_9_M2F</item>
+ <item>INIT_DONE</item>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>MSS_READY</item>
+ <item>enable_master</item>
+ <item>m_mosi</item>
+ <item>m_sck</item>
+ <item>m_ss[0]</item>
+ <item>m_ss[1]</item>
+ <item>m_ss[2]</item>
+ <item>m_ss[3]</item>
+ <item>m_ss[4]</item>
+ <item>m_ss[5]</item>
+ <item>m_ss[6]</item>
+ <item>m_ss[7]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CAN_TX_EN_N_M2F</item>
+ <item>CAN_TX_M2F</item>
+ <item>GPIO_0_M2F</item>
+ <item>GPIO_10_M2F</item>
+ <item>GPIO_11_M2F</item>
+ <item>GPIO_12_M2F</item>
+ <item>GPIO_1_M2F</item>
+ <item>GPIO_3_M2F</item>
+ <item>GPIO_5_M2F</item>
+ <item>GPIO_7_M2F</item>
+ <item>GPIO_8_M2F</item>
+ <item>GPIO_9_M2F</item>
+ <item>INIT_DONE</item>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>MSS_READY</item>
+ <item>enable_master</item>
+ <item>m_mosi</item>
+ <item>m_sck</item>
+ <item>m_ss[0]</item>
+ <item>m_ss[1]</item>
+ <item>m_ss[2]</item>
+ <item>m_ss[3]</item>
+ <item>m_ss[4]</item>
+ <item>m_ss[5]</item>
+ <item>m_ss[6]</item>
+ <item>m_ss[7]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:D</item>
+ <item>CORERESETP_0/INIT_DONE_int:EN</item>
+ <item>CORERESETP_0/MSS_HPMS_READY_int:D</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_clk_base:D</item>
+ <item>CORERESETP_0/RESET_N_M2F_clk_base:D</item>
+ <item>CORERESETP_0/ddr_settled_clk_base:D</item>
+ <item>CORERESETP_0/ddr_settled_q1:D</item>
+ <item>CORERESETP_0/mss_ready_select:EN</item>
+ <item>CORERESETP_0/mss_ready_state:EN</item>
+ <item>CORERESETP_0/sdif3_spll_lock_q2:D</item>
+ <item>CORERESETP_0/sm0_areset_n_clk_base:D</item>
+ <item>CORERESETP_0/sm0_state[1]:D</item>
+ <item>CORERESETP_0/sm0_state[2]:D</item>
+ <item>CORERESETP_0/sm0_state[3]:D</item>
+ <item>CORERESETP_0/sm0_state[3]:EN</item>
+ <item>CORERESETP_0/sm0_state[4]:D</item>
+ <item>CORERESETP_0/sm0_state[5]:D</item>
+ <item>CORERESETP_0/sm0_state[6]:EN</item>
+ <item>CORERESETP_0/sm1_areset_n_clk_base:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxs_txready:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q1:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q2:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q3:D</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q1:D</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q2:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrx_async_reset_ok:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_alldone:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_pktend:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_alldone:D</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[1]:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/CONFIG1_DONE_q1:ALn</item>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:ALn</item>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_q1:ALn</item>
+ <item>CORERESETP_0/INIT_DONE_int:ALn</item>
+ <item>CORERESETP_0/MSS_HPMS_READY_int:ALn</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
+ <item>CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+ <item>CORERESETP_0/ddr_settled_clk_base:ALn</item>
+ <item>CORERESETP_0/ddr_settled_q1:ALn</item>
+ <item>CORERESETP_0/mss_ready_select:ALn</item>
+ <item>CORERESETP_0/mss_ready_state:ALn</item>
+ <item>CORERESETP_0/sdif3_spll_lock_q2:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_clk_base:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_q1:ALn</item>
+ <item>CORERESETP_0/sm0_state[0]:ALn</item>
+ <item>CORERESETP_0/sm0_state[1]:ALn</item>
+ <item>CORERESETP_0/sm0_state[2]:ALn</item>
+ <item>CORERESETP_0/sm0_state[3]:ALn</item>
+ <item>CORERESETP_0/sm0_state[4]:ALn</item>
+ <item>CORERESETP_0/sm0_state[5]:ALn</item>
+ <item>CORERESETP_0/sm0_state[6]:ALn</item>
+ <item>CORERESETP_0/sm1_areset_n_clk_base:ALn</item>
+ <item>CORERESETP_0/sm1_areset_n_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxs_txready:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q3:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrx_async_reset_ok:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_alldone:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_pktend:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_alldone:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_busy:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_consecutive:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_fiforead:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_first:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_firstrx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_holdsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_lastbit:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_lastframe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_midbit:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_oen:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_rxbusy:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:D</item>
+ <item>CORERESETP_0/INIT_DONE_int:EN</item>
+ <item>CORERESETP_0/MSS_HPMS_READY_int:D</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_clk_base:D</item>
+ <item>CORERESETP_0/RESET_N_M2F_clk_base:D</item>
+ <item>CORERESETP_0/ddr_settled_clk_base:D</item>
+ <item>CORERESETP_0/ddr_settled_q1:D</item>
+ <item>CORERESETP_0/mss_ready_select:EN</item>
+ <item>CORERESETP_0/mss_ready_state:EN</item>
+ <item>CORERESETP_0/sdif3_spll_lock_q2:D</item>
+ <item>CORERESETP_0/sm0_areset_n_clk_base:D</item>
+ <item>CORERESETP_0/sm0_state[1]:D</item>
+ <item>CORERESETP_0/sm0_state[2]:D</item>
+ <item>CORERESETP_0/sm0_state[3]:D</item>
+ <item>CORERESETP_0/sm0_state[3]:EN</item>
+ <item>CORERESETP_0/sm0_state[4]:D</item>
+ <item>CORERESETP_0/sm0_state[5]:D</item>
+ <item>CORERESETP_0/sm0_state[6]:EN</item>
+ <item>CORERESETP_0/sm1_areset_n_clk_base:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxs_txready:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_pktsel:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_dataerr:D</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_strobetx:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q1:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q2:D</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q3:D</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q1:D</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q2:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrx_async_reset_ok:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_alldone:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_pktend:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:D</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:EN</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_alldone:D</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[0]:D</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[1]:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/CONFIG1_DONE_q1:ALn</item>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:ALn</item>
+ <item>CORERESETP_0/FIC_2_APB_M_PRESET_N_q1:ALn</item>
+ <item>CORERESETP_0/INIT_DONE_int:ALn</item>
+ <item>CORERESETP_0/MSS_HPMS_READY_int:ALn</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
+ <item>CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+ <item>CORERESETP_0/ddr_settled_clk_base:ALn</item>
+ <item>CORERESETP_0/ddr_settled_q1:ALn</item>
+ <item>CORERESETP_0/mss_ready_select:ALn</item>
+ <item>CORERESETP_0/mss_ready_state:ALn</item>
+ <item>CORERESETP_0/sdif3_spll_lock_q2:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_clk_base:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_q1:ALn</item>
+ <item>CORERESETP_0/sm0_state[0]:ALn</item>
+ <item>CORERESETP_0/sm0_state[1]:ALn</item>
+ <item>CORERESETP_0/sm0_state[2]:ALn</item>
+ <item>CORERESETP_0/sm0_state[3]:ALn</item>
+ <item>CORERESETP_0/sm0_state[4]:ALn</item>
+ <item>CORERESETP_0/sm0_state[5]:ALn</item>
+ <item>CORERESETP_0/sm0_state[6]:ALn</item>
+ <item>CORERESETP_0/sm1_areset_n_clk_base:ALn</item>
+ <item>CORERESETP_0/sm1_areset_n_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC1_stxs_txready:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC2_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_dataerr:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/SYNC3_stxp_strobetx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clk_div_val_reg[7]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/clock_rx_q3:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/data_rx_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrx_async_reset_ok:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_alldone:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_frames[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_pktend:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxp_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_datain[7]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_first:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[5]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_shiftreg[6]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/msrxs_strobe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_alldone:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[3]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_bitsel[4]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_busy:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_consecutive:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[0]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[1]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_datahold[2]:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_fiforead:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_first:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_firstrx:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_holdsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_lastbit:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_lastframe:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_midbit:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_oen:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_pktsel:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re_q1:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_re_q2:ALn</item>
+ <item>CORESPI_0_0/USPI/UCC/mtx_rxbusy:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>FAB_RESET_N</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>FAB_RESET_N</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>FAB_CCC_GL0</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>FAB_CCC_GL0</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/sm0_areset_n_rcosc:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/ddr_settled:ALn</item>
+ <item>CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_rcosc:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/sm0_areset_n_rcosc:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERESETP_0/ddr_settled:ALn</item>
+ <item>CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</item>
+ <item>CORERESETP_0/sm0_areset_n_rcosc:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

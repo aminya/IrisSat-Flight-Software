@@ -1,7 +1,7 @@
 C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  cdh_tsat5_system_sb  -multisrs  "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_comp.srs"  -osyn  "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_mult.srs"  -log  "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synlog\cdh_tsat5_system_sb_multi_srs_gen.srr" 
 relcom:..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe -link -top cdh_tsat5_system_sb -multisrs "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_comp.srs" -osyn "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_mult.srs" -log "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synlog\cdh_tsat5_system_sb_multi_srs_gen.srr"
-rc:0 success:1 runtime:1
-file:..\synwork\cdh_tsat5_system_sb_comp.srs|io:i|time:1584854447|size:81862|exec:0|csum:D4AAABB053F4542A189005376DD983F8
-file:..\synwork\cdh_tsat5_system_sb_mult.srs|io:o|time:1584854449|size:13748|exec:0|csum:
-file:..\synlog\cdh_tsat5_system_sb_multi_srs_gen.srr|io:o|time:1584854449|size:1109|exec:0|csum:
+rc:0 success:1 runtime:0
+file:..\synwork\cdh_tsat5_system_sb_comp.srs|io:i|time:1585435878|size:103827|exec:0|csum:229B9414FDA24162952C4B884B21AE8E
+file:..\synwork\cdh_tsat5_system_sb_mult.srs|io:o|time:1585435879|size:14133|exec:0|csum:
+file:..\synlog\cdh_tsat5_system_sb_multi_srs_gen.srr|io:o|time:1585435879|size:1283|exec:0|csum:
 file:..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1545375129|size:8731136|exec:1|csum:FDA9CE3068B3473AD3F7DDB573109F00

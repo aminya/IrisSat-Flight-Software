@@ -1,0 +1,18 @@
+# Netlist Viewer TCL File
+set_family -name SmartFusion2
+top_module -name cdh_tsat5_system_sb
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_master.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/spi_slave.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi_sfr.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core_obfuscated/corespi.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v}
+addfile -view RTL -lib COREAPB3_LIB -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v}
+addfile -view RTL -lib COREAPB3_LIB -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v}
+addfile -view RTL -lib COREAPB3_LIB -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v}
+addfile -view RTL -lib work -type VLOG -mode verilog_2k -name {C:/Users/Joseph Howarth/Documents/MBSat/libero_update/ManitobaSat-Flight-Software/mbsat-fsw-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v}

@@ -1,8 +1,10 @@
 KEY IDE_DES_TOOL "Ide"
 KEY IDE_DES_ADB_PATH "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\impl1\cdh_tsat5_system_sb.adb"
 LIST SOURCE_FILES
+VALUE "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
+VALUE "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb_sdc.sdc;Skipped"
 ENDLIST
 LIST VCD_FILES
 ENDLIST
