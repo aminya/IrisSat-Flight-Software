@@ -9,16 +9,16 @@ Build: N-2018.03M-SP1-1
 Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DESKTOP-7FLV13P
+Hostname: DESKTOP-3FOEPN2
 
 Implementation : synthesis
 
-# Written on Sat Mar 28 17:52:48 2020
+# Written on Mon Mar 30 00:07:02 2020
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "cdh_tsat5_system_sb"
-Constraint File(s):      "C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\synthesis.fdc"
+Constraint File(s):      "C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\synthesis.fdc"
 
 
 
@@ -71,6 +71,17 @@ p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
 p:MSS_READY
 p:POWER_ON_RESET_N
+p:SPISCLKO
+p:SPISDI
+p:SPISDO
+p:SPISS[0]
+p:SPISS[1]
+p:SPISS[2]
+p:SPISS[3]
+p:SPISS[4]
+p:SPISS[5]
+p:SPISS[6]
+p:SPISS[7]
 p:enable_master
 p:m_miso
 p:m_mosi

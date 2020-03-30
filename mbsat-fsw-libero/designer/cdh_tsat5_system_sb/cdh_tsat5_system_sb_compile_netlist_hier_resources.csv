@@ -1,15 +1,22 @@
 Detailed Resource Usage
-Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,CAN,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
-CCC_0/Primitives,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-CORERESETP_0/Primitives,7,29,0,0,0,0,0,2,0,0,0,0,0,0
-CORESPI_0_0/USPI/Primitives,10,0,0,0,0,0,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/UCC/Primitives,164,134,0,0,0,0,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/UCON/Primitives,7,0,0,0,0,0,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/URF/Primitives,77,43,0,0,0,0,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/URXF/Primitives,41,14,36,36,0,1,0,0,0,0,0,0,0,0
-CORESPI_0_0/USPI/UTXF/Primitives,57,14,36,36,0,1,0,0,0,0,0,0,0,0
-CoreAPB3_0/Primitives,2,0,0,0,0,0,0,0,0,0,0,0,0,0
-FABOSC_0/Primitives,0,0,0,0,0,0,0,1,0,0,0,0,0,1
-Primitives/Primitives,2,0,0,0,34,0,0,0,0,0,0,0,0,0
-cdh_tsat5_system_sb_MSS_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART,RCOSC_50MHZ
+CCC_0/Primitives,0,0,0,0,0,0,1,1,0,0,0,0
+CORERESETP_0/Primitives,7,29,0,0,0,0,0,2,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/Primitives,9,0,0,0,0,0,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/UCC/Primitives,162,132,0,0,0,0,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/UCON/Primitives,5,0,0,0,0,0,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/URF/Primitives,86,43,0,0,0,0,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/URXF/Primitives,46,14,36,36,0,1,0,0,0,0,0,0
+CORESPI1_1_0/CORESPI1_1_0/USPI/UTXF/Primitives,44,14,36,36,0,1,0,0,0,0,0,0
+CORESPI_0_0/USPI/Primitives,8,0,0,0,0,0,0,0,0,0,0,0
+CORESPI_0_0/USPI/UCC/Primitives,173,134,0,0,0,0,0,0,0,0,0,0
+CORESPI_0_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0
+CORESPI_0_0/USPI/UCON/Primitives,1,0,0,0,0,0,0,0,0,0,0,0
+CORESPI_0_0/USPI/URF/Primitives,87,43,0,0,0,0,0,0,0,0,0,0
+CORESPI_0_0/USPI/URXF/Primitives,45,14,36,36,0,1,0,0,0,0,0,0
+CORESPI_0_0/USPI/UTXF/Primitives,43,14,36,36,0,1,0,0,0,0,0,0
+CoreAPB3_0/CAPB3IIII/Primitives,24,0,0,0,0,0,0,0,0,0,0,0
+FABOSC_0/Primitives,0,0,0,0,0,0,0,1,0,0,0,1
+Primitives/Primitives,3,0,0,0,45,0,0,0,0,0,0,0
+cdh_tsat5_system_sb_MSS_0/Primitives,10,0,0,0,0,0,0,0,1,0,0,0

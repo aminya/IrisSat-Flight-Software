@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb} \
+    -desdir {C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb} \
     -design cdh_tsat5_system_sb \
     -fam SmartFusion2 \
     -die PA4M1000_N \

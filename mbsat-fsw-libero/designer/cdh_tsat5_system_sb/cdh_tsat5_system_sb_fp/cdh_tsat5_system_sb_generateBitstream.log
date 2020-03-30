@@ -1,20 +1,20 @@
 Software Version: 12.600.0.14
-Opened 'C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb_fp\cdh_tsat5_system_sb.pro'
+Opened 'C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb_fp\cdh_tsat5_system_sb.pro'
 The 'open_project' command succeeded.
-PDB file 'C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.pdb' has been loaded successfully.
+PDB file 'C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.pdb' has been loaded successfully.
 DESIGN : cdh_tsat5_system_sb;  CHECKSUM : 0000;  PDB_VERSION : 1.9
-Load Programming Data(s) Finished : Sat Mar 28 17:59:41 2020 (Elapsed time 00:00:01)
+Load Programming Data(s) Finished : Mon Mar 30 00:22:07 2020 (Elapsed time 00:00:00)
 The 'load_programming_data' command succeeded.
-File/Folder 'C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.ppd'; file programs Fabric.
-Fabric component bitstream digest: bb947e4a2591e7abe4afc8cd7e9187c04f0ea3f32879aa30ba4d61b4e980a4d4
-Finished: Sat Mar 28 17:59:50 2020 (Elapsed time 00:00:09)
+File/Folder 'C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb.ppd'; file programs Fabric.
+Fabric component bitstream digest: 8c518b707d1b7db82ddcb7cd317f511631b5e94a5bb73f1b7a5e7ee48a5acd10
+Finished: Mon Mar 30 00:22:13 2020 (Elapsed time 00:00:06)
 
 The 'export_single_ppd' command succeeded.
 The 'set_programming_file' command succeeded.
 Project saved.
 The 'save_project' command succeeded.
 Project closed.
-Exported log file C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb_fp\cdh_tsat5_system_sb.log.
+Exported log file C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb_fp\cdh_tsat5_system_sb.log.
 The 'close_project' command succeeded.
 The Execute Script command succeeded.

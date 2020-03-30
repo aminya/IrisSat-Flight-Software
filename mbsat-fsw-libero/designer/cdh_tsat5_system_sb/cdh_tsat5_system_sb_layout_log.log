@@ -8,16 +8,16 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 12 fixed I/O macros, 22 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 29 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.600.0 
-Design: cdh_tsat5_system_sb             Started: Sat Mar 28 17:57:08 2020
+Design: cdh_tsat5_system_sb             Started: Mon Mar 30 00:21:30 2020
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,44 +33,44 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: cdh_tsat5_system_sb             
-Finished: Sat Mar 28 17:57:14 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
-Total Memory Usage: 116.0 Mbytes
+Finished: Mon Mar 30 00:21:34 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 117.1 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sbStarted: Sat Mar 28 17:57:19 2020
+Design: C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sbStarted: Mon Mar 30 00:21:36 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb
-Finished: Sat Mar 28 17:57:24 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 429.1 Mbytes
+Design: C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb
+Finished: Mon Mar 30 00:21:40 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 429.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sbStarted: Sat Mar 28 17:57:26 2020
+Design: C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sbStarted: Mon Mar 30 00:21:42 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb
-Finished: Sat Mar 28 17:57:31 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 429.5 Mbytes
+Design: C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb
+Finished: Mon Mar 30 00:21:46 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 429.6 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 440  | 12084 | 3.64       |
-| DFF           | 306  | 12084 | 2.53       |
+| 4LUT          | 899  | 12084 | 7.44       |
+| DFF           | 581  | 12084 | 4.81       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 464  | 12084 | 3.84       |
+| Logic Element | 956  | 12084 | 7.91       |
 +---------------+------+-------+------------+
 

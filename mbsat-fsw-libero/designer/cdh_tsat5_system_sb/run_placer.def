@@ -1,6 +1,6 @@
 G5PLACER_32_64_BIT_EXT=64
 DESIGN=cdh_tsat5_system_sb
-DESDIR=C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb
+DESDIR=C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144
@@ -30,7 +30,7 @@ NETLIST_TYPE=EDIF
 MINDELAYG4_REPAIR=0
 MINDELAYG5_REPAIR=0
 LAYOUT_STATE=NOT_VALID
-PDC_FILE=C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc,,
+PDC_FILE=C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc,,
 USE_CONSTRAINT_FLOW=1
 RESTRICTPROBEPINS=1
 RESTRICTSPIPINS=0

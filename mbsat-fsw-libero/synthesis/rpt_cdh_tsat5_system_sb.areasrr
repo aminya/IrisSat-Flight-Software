@@ -9,7 +9,7 @@ Build: N-2018.03M-SP1-1
 Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
 OS: Windows 6.2
 
-Hostname: DESKTOP-7FLV13P
+Hostname: DESKTOP-3FOEPN2
 
 Implementation : synthesis
 
@@ -24,27 +24,27 @@ Part:			M2S010TQ144STD (Microsemi)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      234                100 %                
+SLE      437                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb:	234 (34.62 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb:	437 (33.64 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           330                100 %                
-ARI1          36                 100 %                
-BLACK BOX     6                  100 %                
+CFG           684                100 %                
+ARI1          68                 100 %                
+BLACK BOX     7                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb:	372 (55.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb:	759 (58.43 % Utilization)
 
 
 MEMORY ELEMENTS
 Name         Total elements     Utilization     Notes
 -----------------------------------------------------
-RAM64X18     2                  100 %                
+RAM64X18     4                  100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block cdh_tsat5_system_sb:	2 (0.30 % Utilization)
+Total MEMORY ELEMENTS in the block cdh_tsat5_system_sb:	4 (0.31 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -52,197 +52,406 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     4                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb:	4 (0.59 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb:	4 (0.31 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       34                 100 %                
+IO       45                 100 %                
 =================================================
-Total IO PADS in the block cdh_tsat5_system_sb:	34 (5.03 % Utilization)
+Total IO PADS in the block cdh_tsat5_system_sb:	45 (3.46 % Utilization)
 
 ----------------------------------------------------------------
-########   Utilization report for  cell:   CORESPI_Z4   ########
-Instance path:   cdh_tsat5_system_sb.CORESPI_Z4                 
+########   Utilization report for  cell:   CORESPI1_1   ########
+Instance path:   cdh_tsat5_system_sb.CORESPI1_1                 
 ================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      205                87.6 %               
+SLE      203                46.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_Z4:	205 (30.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CORESPI1_1:	203 (15.63 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      321                97.3 %               
-ARI1     36                 100 %                
+CFG      327                47.8 %               
+ARI1     26                 38.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CORESPI_Z4:	357 (52.81 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CORESPI1_1:	353 (27.17 % Utilization)
 
 
 MEMORY ELEMENTS
 Name         Total elements     Utilization     Notes
 -----------------------------------------------------
-RAM64X18     2                  100 %                
+RAM64X18     2                  50 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_Z4:	2 (0.30 % Utilization)
+Total MEMORY ELEMENTS in the block cdh_tsat5_system_sb.CORESPI1_1:	2 (0.15 % Utilization)
 
---------------------------------------------------------------------------------
-########   Utilization report for  cell:   spi_8s_8s_8s_255s_0_0_1_0s   ########
-Instance path:   CORESPI_Z4.spi_8s_8s_8s_255s_0_0_1_0s                          
-================================================================================
+------------------------------------------------------------------
+########   Utilization report for  cell:   CORESPI_Z4_0   ########
+Instance path:   CORESPI1_1.CORESPI_Z4_0                          
+==================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      205                87.6 %               
+SLE      203                46.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CORESPI_Z4.spi_8s_8s_8s_255s_0_0_1_0s:	205 (30.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CORESPI1_1.CORESPI_Z4_0:	203 (15.63 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      321                97.3 %               
-ARI1     36                 100 %                
+CFG      327                47.8 %               
+ARI1     26                 38.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CORESPI_Z4.spi_8s_8s_8s_255s_0_0_1_0s:	357 (52.81 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORESPI1_1.CORESPI_Z4_0:	353 (27.17 % Utilization)
 
 
 MEMORY ELEMENTS
 Name         Total elements     Utilization     Notes
 -----------------------------------------------------
-RAM64X18     2                  100 %                
+RAM64X18     2                  50 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block CORESPI_Z4.spi_8s_8s_8s_255s_0_0_1_0s:	2 (0.30 % Utilization)
+Total MEMORY ELEMENTS in the block CORESPI1_1.CORESPI_Z4_0:	2 (0.15 % Utilization)
 
----------------------------------------------------------------------
-########   Utilization report for  cell:   spi_chanctrl_Z3   ########
-Instance path:   spi_8s_8s_8s_255s_0_0_1_0s.spi_chanctrl_Z3          
-=====================================================================
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_8s_8s_8s_255s_0_0_1_0s_0   ########
+Instance path:   CORESPI_Z4_0.spi_8s_8s_8s_255s_0_0_1_0s_0                        
+==================================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      134                57.3 %               
+SLE      203                46.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_chanctrl_Z3:	134 (19.82 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CORESPI_Z4_0.spi_8s_8s_8s_255s_0_0_1_0s_0:	203 (15.63 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      151                45.8 %               
-ARI1     14                 38.9 %               
+CFG      327                47.8 %               
+ARI1     26                 38.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_chanctrl_Z3:	165 (24.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORESPI_Z4_0.spi_8s_8s_8s_255s_0_0_1_0s_0:	353 (27.17 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block CORESPI_Z4_0.spi_8s_8s_8s_255s_0_0_1_0s_0:	2 (0.15 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   spi_chanctrl_Z3_0   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_0.spi_chanctrl_Z3_0        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      132                30.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_chanctrl_Z3_0:	132 (10.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                21.8 %               
+ARI1     14                 20.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_chanctrl_Z3_0:	163 (12.55 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_clockmux   ########
-Instance path:   spi_chanctrl_Z3.spi_clockmux                     
+Instance path:   spi_chanctrl_Z3_0.spi_clockmux                   
 ==================================================================
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.3030 %             
+CFG      1                  0.1460 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_chanctrl_Z3.spi_clockmux:	1 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_chanctrl_Z3_0.spi_clockmux:	1 (0.08 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_control_8s   ########
-Instance path:   spi_8s_8s_8s_255s_0_0_1_0s.spi_control_8s          
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_0.spi_control_8s        
 ====================================================================
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  2.12 %               
+CFG      5                  0.7310 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_control_8s:	7 (1.04 % Utilization)
-
-------------------------------------------------------------------------
-########   Utilization report for  cell:   spi_fifo_8s_8s_3_0   ########
-Instance path:   spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_0          
-========================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      14                 5.98 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_0:	14 (2.07 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      35                 10.6 %               
-ARI1     6                  16.7 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_0:	41 (6.07 % Utilization)
-
-
-MEMORY ELEMENTS
-Name         Total elements     Utilization     Notes
------------------------------------------------------
-RAM64X18     1                  50 %                 
-=====================================================
-Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_0:	1 (0.15 % Utilization)
-
-------------------------------------------------------------------------
-########   Utilization report for  cell:   spi_fifo_8s_8s_3_1   ########
-Instance path:   spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_1          
-========================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      14                 5.98 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_1:	14 (2.07 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      51                 15.5 %               
-ARI1     6                  16.7 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_1:	57 (8.43 % Utilization)
-
-
-MEMORY ELEMENTS
-Name         Total elements     Utilization     Notes
------------------------------------------------------
-RAM64X18     1                  50 %                 
-=====================================================
-Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_fifo_8s_8s_3_1:	1 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_control_8s:	5 (0.38 % Utilization)
 
 ----------------------------------------------------------------------
-########   Utilization report for  cell:   spi_rf_8s_255s_0   ########
-Instance path:   spi_8s_8s_8s_255s_0_0_1_0s.spi_rf_8s_255s_0          
+########   Utilization report for  cell:   spi_fifo_8s_8s_3   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3        
 ======================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      43                 18.4 %               
+SLE      14                 3.2 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_rf_8s_255s_0:	43 (6.36 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3:	14 (1.08 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      67                 20.3 %               
-ARI1     10                 27.8 %               
+CFG      38                 5.56 %               
+ARI1     6                  8.82 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s.spi_rf_8s_255s_0:	77 (11.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3:	44 (3.39 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3:	1 (0.08 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_fifo_8s_8s_3_0   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3_0        
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 3.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3_0:	14 (1.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      40                 5.85 %               
+ARI1     6                  8.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3_0:	46 (3.54 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_fifo_8s_8s_3_0:	1 (0.08 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_rf_8s_255s_0_0   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_0.spi_rf_8s_255s_0_0        
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 9.84 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_rf_8s_255s_0_0:	43 (3.31 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      86                 12.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_0.spi_rf_8s_255s_0_0:	86 (6.62 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   CORESPI_Z4_1   ########
+Instance path:   cdh_tsat5_system_sb.CORESPI_Z4_1                 
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      205                46.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_Z4_1:	205 (15.78 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      332                48.5 %               
+ARI1     26                 38.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CORESPI_Z4_1:	358 (27.56 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_Z4_1:	2 (0.15 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_8s_8s_8s_255s_0_0_1_0s_1   ########
+Instance path:   CORESPI_Z4_1.spi_8s_8s_8s_255s_0_0_1_0s_1                        
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      205                46.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORESPI_Z4_1.spi_8s_8s_8s_255s_0_0_1_0s_1:	205 (15.78 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      332                48.5 %               
+ARI1     26                 38.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORESPI_Z4_1.spi_8s_8s_8s_255s_0_0_1_0s_1:	358 (27.56 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block CORESPI_Z4_1.spi_8s_8s_8s_255s_0_0_1_0s_1:	2 (0.15 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   spi_chanctrl_Z3_1   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_1.spi_chanctrl_Z3_1        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      134                30.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_chanctrl_Z3_1:	134 (10.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      160                23.4 %               
+ARI1     14                 20.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_chanctrl_Z3_1:	174 (13.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   spi_clockmux_0   ########
+Instance path:   spi_chanctrl_Z3_1.spi_clockmux_0                   
+====================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.1460 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_chanctrl_Z3_1.spi_clockmux_0:	1 (0.08 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   spi_control_8s_0   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_1.spi_control_8s_0        
+======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.1460 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_control_8s_0:	1 (0.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_fifo_8s_8s_3_0_0   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_0_0        
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 3.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_0_0:	14 (1.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      39                 5.7 %                
+ARI1     6                  8.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_0_0:	45 (3.46 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_0_0:	1 (0.08 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_fifo_8s_8s_3_1   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_1        
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 3.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_1:	14 (1.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      37                 5.41 %               
+ARI1     6                  8.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_1:	43 (3.31 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_fifo_8s_8s_3_1:	1 (0.08 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_rf_8s_255s_0_1   ########
+Instance path:   spi_8s_8s_8s_255s_0_0_1_0s_1.spi_rf_8s_255s_0_1        
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 9.84 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_rf_8s_255s_0_1:	43 (3.31 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      87                 12.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_8s_8s_8s_255s_0_0_1_0s_1.spi_rf_8s_255s_0_1:	87 (6.70 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAPB3_Z1   ########
@@ -252,9 +461,23 @@ Instance path:   cdh_tsat5_system_sb.CoreAPB3_Z1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.6060 %             
+CFG      8                  1.17 %               
+ARI1     16                 23.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreAPB3_Z1:	2 (0.30 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreAPB3_Z1:	24 (1.85 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   CAPB3II   ########
+Instance path:   CoreAPB3_Z1.CAPB3II                         
+=============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  1.17 %               
+ARI1     16                 23.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.CAPB3II:	24 (1.85 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreResetP_Z2   ########
@@ -264,17 +487,17 @@ Instance path:   cdh_tsat5_system_sb.CoreResetP_Z2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      29                 12.4 %               
+SLE      29                 6.64 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	29 (4.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	29 (2.23 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  2.12 %               
+CFG      7                  1.02 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreResetP_Z2:	7 (1.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreResetP_Z2:	7 (0.54 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -282,7 +505,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	2 (0.30 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	2 (0.15 % Utilization)
 
 ------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_CCC_0_FCCC   ########
@@ -292,9 +515,9 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  16.7 %               
+BLACK BOX     1                  14.3 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.08 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -302,7 +525,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  25 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.15 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.08 % Utilization)
 
 --------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_FABOSC_0_OSC   ########
@@ -312,9 +535,9 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     2                  33.3 %               
+BLACK BOX     2                  28.6 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	2 (0.30 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	2 (0.15 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -322,7 +545,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  25 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	1 (0.15 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	1 (0.08 % Utilization)
 
 -----------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_MSS   ########
@@ -332,9 +555,10 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  16.7 %               
+CFG           10                 1.46 %               
+BLACK BOX     1                  14.3 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS:	1 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS:	11 (0.85 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
