@@ -1,0 +1,46 @@
+Resource Usage Report for cdh_tsat5_system_sb 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          4 uses
+MSS_010         1 use
+OR3             2 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           140 uses
+CFG3           188 uses
+CFG4           350 uses
+
+Carry cells:
+ARI1            42 uses - used for arithmetic functions
+ARI1            26 uses - used for Wide-Mux implementation
+Total ARI1      68 uses
+
+
+Sequential Cells: 
+SLE            437 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 46
+I/O primitives: 45
+INBUF          6 uses
+OUTBUF         39 uses
+
+
+Global Clock Buffers: 4
+
+Total LUTs:    752
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  437 + 144 + 0 + 0 = 581;
+Total number of LUTs after P&R:  752 + 144 + 0 + 0 = 896;
+

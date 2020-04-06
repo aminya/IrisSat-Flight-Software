@@ -1,0 +1,2 @@
+CKID0001:@|S:CCC_0.CCC_INST@|E:CORERESETP_0.RESET_N_M2F_q1@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:FABOSC_0.I_RCOSC_25_50MHZ@|E:CORERESETP_0.sm0_areset_n_rcosc@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

@@ -1,0 +1,1 @@
+smartpower_report_power -clock_breakdown "TRUE" -rail_breakdown "TRUE" -type_breakdown "TRUE" {C:\Users\Joseph Howarth\Documents\MBSat\libero_update\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\cdh_tsat5_system_sb\cdh_tsat5_system_sb_power_report.xml}

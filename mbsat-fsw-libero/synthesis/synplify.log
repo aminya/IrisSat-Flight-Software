@@ -1,11 +1,11 @@
 
 Starting:    C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
-Hostname:    DESKTOP-7FLV13P
-Date:        Fri Feb 28 11:14:14 2020
+Hostname:    DESKTOP-3FOEPN2
+Date:        Mon Mar 30 00:06:58 2020
 Version:     N-2018.03M-SP1-1
 
-Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log cdh_tsat5_system_syn.tcl
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log cdh_tsat5_system_sb_syn.tcl
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -16,64 +16,64 @@ License Option: actel_oem
 Running in Vendor Mode
 
 auto_infer_blackbox is not supported in current product.
-log file: "C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srr"
+log file: "C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.srr"
 Running: synthesis in foreground
 
-Running cdh_tsat5_system_syn|synthesis
+Running cdh_tsat5_system_sb_syn|synthesis
 
-Running Flow: compile (Compile) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:15 2020
+Running Flow: compile (Compile) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:06:58 2020
 
-Running Flow: compile_flow (Compile Process) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:15 2020
+Running Flow: compile_flow (Compile Process) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:06:58 2020
 
-Running: compiler (Compile Input) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:15 2020
-Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_comp.srs to C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srs
+Running: compiler (Compile Input) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:06:58 2020
+Copied C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_comp.srs to C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.srs
 
 compiler completed
-# Fri Feb 28 11:14:17 2020
+# Mon Mar 30 00:07:01 2020
 
 Return Code: 0
-Run Time:00h:00m:02s
+Run Time:00h:00m:03s
 
-Running: multi_srs_gen (Multi-srs Generator) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:17 2020
+Running: multi_srs_gen (Multi-srs Generator) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:07:01 2020
 
 multi_srs_gen completed
-# Fri Feb 28 11:14:18 2020
+# Mon Mar 30 00:07:01 2020
 
 Return Code: 0
-Run Time:00h:00m:01s
-Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_mult.srs to C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srs
-Complete: Compile Process on cdh_tsat5_system_syn|synthesis
+Run Time:00h:00m:00s
+Copied C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_mult.srs to C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.srs
+Complete: Compile Process on cdh_tsat5_system_sb_syn|synthesis
 
-Running: premap (Premap) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:18 2020
+Running: premap (Premap) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:07:01 2020
 
 premap completed with warnings
-# Fri Feb 28 11:14:19 2020
+# Mon Mar 30 00:07:02 2020
 
 Return Code: 1
 Run Time:00h:00m:01s
-Complete: Compile on cdh_tsat5_system_syn|synthesis
+Complete: Compile on cdh_tsat5_system_sb_syn|synthesis
 
-Running Flow: map (Map) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:19 2020
+Running Flow: map (Map) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:07:02 2020
 License granted for 4 parallel jobs
 
-Running: fpga_mapper (Map & Optimize) on cdh_tsat5_system_syn|synthesis
-# Fri Feb 28 11:14:19 2020
-Copied C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_m.srm to C:\Users\Joseph Howarth\Documents\MBSat\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system.srm
+Running: fpga_mapper (Map & Optimize) on cdh_tsat5_system_sb_syn|synthesis
+# Mon Mar 30 00:07:02 2020
+Copied C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\cdh_tsat5_system_sb_m.srm to C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.srm
 
 fpga_mapper completed with warnings
-# Fri Feb 28 11:14:23 2020
+# Mon Mar 30 00:07:06 2020
 
 Return Code: 1
 Run Time:00h:00m:04s
-Complete: Map on cdh_tsat5_system_syn|synthesis
-Complete: Logic Synthesis on cdh_tsat5_system_syn|synthesis
-TCL script complete: "cdh_tsat5_system_syn.tcl"
+Complete: Map on cdh_tsat5_system_sb_syn|synthesis
+Complete: Logic Synthesis on cdh_tsat5_system_sb_syn|synthesis
+TCL script complete: "cdh_tsat5_system_sb_syn.tcl"
 exit status=0
 exit status=0
 License checkin: synplifypro_actel

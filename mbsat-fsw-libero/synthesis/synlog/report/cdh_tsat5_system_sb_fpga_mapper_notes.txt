@@ -1,0 +1,22 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO111 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO231 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z3_0(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z3_0(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z3_1(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z3_1(verilog) instance spi_clk_count[7:0] 
+@N: BN362 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Removing sequential instance CORESPI_0_0.USPI.UCC.spi_clk_next (in view: work.cdh_tsat5_system_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\files\mbsat\test4\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Removing sequential instance CORESPI1_1_0.CORESPI1_1_0.USPI.UCC.spi_clk_next (in view: work.cdh_tsat5_system_sb(verilog)) because it does not drive other instances.
+@N: FP130 |Promoting Net MSS_READY_c on CLKINT  I_335 
+@N: FP130 |Promoting Net CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_336 
+@N: FX1056 |Writing EDF file: C:\Users\Files\MBSAT\Test4\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\cdh_tsat5_system_sb.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
