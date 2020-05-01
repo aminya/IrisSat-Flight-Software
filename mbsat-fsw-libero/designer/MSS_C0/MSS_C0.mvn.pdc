@@ -1,0 +1,43 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.1 12.600.0.14
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Fri May  1 17:05:22 2020 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank2 -vcci 3.30 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname 72
+set_io SPI_0_CLK -DIRECTION INOUT -pinname 100 -fixed yes
+set_io SPI_0_DI -DIRECTION INPUT -pinname 101 -fixed yes
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname 102 -fixed yes
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname 103 -fixed yes
+
+#
+# Core cell constraints
+#
+

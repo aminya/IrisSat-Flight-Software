@@ -1,1 +1,1 @@
-run_tcl -fg cdh_tsat5_system_sb_syn.tcl
+run_tcl -fg MSS_C0_syn.tcl
