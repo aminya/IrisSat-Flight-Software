@@ -1,0 +1,20 @@
+Software Version: 12.600.0.14
+Opened 'C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.pdb' has been loaded successfully.
+DESIGN : MSS_C0;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Fri May 01 17:06:01 2020 (Elapsed time 00:00:01)
+The 'load_programming_data' command succeeded.
+File/Folder 'C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.ppd'; file programs Fabric.
+Fabric component bitstream digest: b4b5fb1f0ca543b7e8d704bdcec402e062b5549f8b7b32ac5cfd71130a295140
+Finished: Fri May 01 17:06:07 2020 (Elapsed time 00:00:06)
+
+The 'export_single_ppd' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
