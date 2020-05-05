@@ -3,12 +3,13 @@ Opened 'C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-liber
 The 'open_project' command succeeded.
 PDB file 'C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.pdb' has been loaded successfully.
 DESIGN : MSS_C0;  CHECKSUM : 0000;  PDB_VERSION : 1.9
-Load Programming Data(s) Finished : Mon May 04 20:36:15 2020 (Elapsed time 00:00:00)
+Load Programming Data(s) Finished : Tue May 05 18:12:03 2020 (Elapsed time 00:00:01)
 The 'load_programming_data' command succeeded.
 File/Folder 'C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.ppd'; file programs Fabric.
+Successfully exported PPD file for currently secured device: 'C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0.ppd'; file programs Fabric and eNVM.
 Fabric component bitstream digest: 545e463a6b6d7feec83aa00e359a2c37a2c606a767bedd30395e4594658b5292
-Finished: Mon May 04 20:36:22 2020 (Elapsed time 00:00:07)
+eNVM component bitstream digest: 2cde236d1c4b2aa6633386b8e76d4deab2848b81f7c930c51ee7d40021202167
+Finished: Tue May 05 18:12:09 2020 (Elapsed time 00:00:06)
 
 The 'export_single_ppd' command succeeded.
 The 'set_programming_file' command succeeded.

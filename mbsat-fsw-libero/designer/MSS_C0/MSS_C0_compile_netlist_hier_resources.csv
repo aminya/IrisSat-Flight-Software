@@ -1,5 +1,5 @@
 Detailed Resource Usage
-Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,CAN,HS USB,Multi-Mode UART,RCOSC_50MHZ
 CORESPI_C0_0/CORESPI_C0_0/USPI/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0
 CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/Primitives,170,132,0,0,0,0,0,0,0,0,0,0,0
 CORESPI_C0_0/CORESPI_C0_0/USPI/UCC/UCLKMUX1/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0

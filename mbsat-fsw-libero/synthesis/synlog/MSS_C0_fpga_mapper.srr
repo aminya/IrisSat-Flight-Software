@@ -1,4 +1,4 @@
-# Mon May  4 20:34:15 2020
+# Tue May  5 17:52:18 2020
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -125,7 +125,7 @@ Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
@@ -207,7 +207,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon May  4 20:34:18 2020
+# Timing Report written on Tue May  5 17:52:22 2020
 #
 
 
@@ -620,6 +620,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 146MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon May  4 20:34:19 2020
+# Tue May  5 17:52:22 2020
 
 ###########################################################]

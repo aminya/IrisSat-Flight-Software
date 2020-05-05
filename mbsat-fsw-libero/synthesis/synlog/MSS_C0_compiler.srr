@@ -66,7 +66,8 @@ Synopsys Verilog Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 0
 @I::"C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\OSC_C0\OSC_C0.v" (library work)
 @I::"C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\MSS_C0\MSS_C0.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v changed - recompiling
+File C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS.v changed - recompiling
 Selecting top level module MSS_C0
 @N: CG775 :"C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
 @N: CG364 :"C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
@@ -647,7 +648,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon May  4 20:34:13 2020
+# Tue May  5 17:52:15 2020
 
 ###########################################################]
 
@@ -667,23 +668,23 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
 
 @N|Running in 64-bit mode
-File C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\synthesis\synwork\layer0.srs changed - recompiling
+File C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon May  4 20:34:13 2020
+# Tue May  5 17:52:15 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon May  4 20:34:13 2020
+# Tue May  5 17:52:15 2020
 
 ###########################################################]
