@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Fri May  1 17:05:41 2020 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Mon May  4 20:35:52 2020 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v12.1
 -Version: 12.600.0.14
@@ -95,9 +95,9 @@ Number |Port             |Function                     |State      |I/O Std  |Di
 82      SPISS_0           MSIO1PB2/USB_XCLK_B           Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 83      SPISDO_0          MSIO1NB2/USB_DIR_B            Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 84                        VSS                           Reserved    
-85                        MSIO2PB2/USB_STP_B            Unassigned  
+85      GPIO_8_M2F        MSIO2PB2/USB_STP_B            Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 86                        VDDI2                         Reserved    
-87                        MSIO2NB2/USB_NXT_B            Unassigned  
+87      GPIO_9_M2F        MSIO2NB2/USB_NXT_B            Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 88                        MSIO3PB2/USB_DATA0_B          Unassigned  
 89                        MSIO4PB2/USB_DATA2_B          Unassigned  
 90                        MSIO3NB2/USB_DATA1_B          Unassigned  

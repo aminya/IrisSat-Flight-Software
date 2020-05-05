@@ -1,6 +1,6 @@
 <project name="MSS_C0" version="1.1">
     <ProjectDirectory>
-        C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp
+        C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.log
+        C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -19,10 +19,10 @@
     </ProgrammingInterface>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
         <name>
-            E2001XFI0J
+            E2001Q8WDF
         </name>
         <id>
-            E2001XFI0J
+            E2001Q8WDF
         </id>
     </programmer>
     <Server>

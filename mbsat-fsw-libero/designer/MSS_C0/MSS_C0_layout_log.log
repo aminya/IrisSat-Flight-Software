@@ -8,16 +8,16 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 22 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 24 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.600.0 
-Design: MSS_C0                          Started: Fri May  1 17:05:25 2020
+Design: MSS_C0                          Started: Mon May  4 20:35:35 2020
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,33 +33,33 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: MSS_C0                          
-Finished: Fri May  1 17:05:28 2020
-Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:03
-Total Memory Usage: 117.0 Mbytes
+Finished: Mon May  4 20:35:39 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 117.1 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Fri May  1 17:05:30 2020
+Design: C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Mon May  4 20:35:41 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
-Finished: Fri May  1 17:05:35 2020
-Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
-Total Memory Usage: 429.4 Mbytes
+Design: C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
+Finished: Mon May  4 20:35:45 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 429.1 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Fri May  1 17:05:36 2020
+Design: C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Mon May  4 20:35:46 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
-Finished: Fri May  1 17:05:40 2020
+Design: C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
+Finished: Mon May  4 20:35:50 2020
 Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
 Total Memory Usage: 429.3 Mbytes
                         o - o - o - o - o - o
@@ -71,6 +71,6 @@ Resource Usage
 | 4LUT          | 873  | 12084 | 7.22       |
 | DFF           | 559  | 12084 | 4.63       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 917  | 12084 | 7.59       |
+| Logic Element | 926  | 12084 | 7.66       |
 +---------------+------+-------+------------+
 

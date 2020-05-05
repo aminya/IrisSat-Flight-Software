@@ -13,12 +13,12 @@ Hostname: DESKTOP-3FOEPN2
 
 Implementation : synthesis
 
-# Written on Fri May  1 17:05:14 2020
+# Written on Mon May  4 20:34:15 2020
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "MSS_C0"
-Constraint File(s):      "C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\synthesis.fdc"
+Constraint File(s):      "C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\synthesis.fdc"
 
 
 
@@ -58,6 +58,8 @@ p:GPIO_3_M2F
 p:GPIO_5_M2F
 p:GPIO_6_M2F
 p:GPIO_7_M2F
+p:GPIO_8_M2F
+p:GPIO_9_M2F
 p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
 p:SPISCLKO
