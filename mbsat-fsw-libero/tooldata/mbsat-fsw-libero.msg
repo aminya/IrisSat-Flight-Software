@@ -372,3 +372,5 @@ Implementation;Synthesis||MT420||@W:Found inferred clock OSC_C0_OSC_C0_0_OSC|RCO
 Implementation;Compile;RootName:MSS_C0
 Implementation;Place and Route;RootName:MSS_C0
 Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||MSS_C0_layout_log.log;liberoaction://open_report/file/MSS_C0_layout_log.log||(null);(null)
+Implementation;Generate Bitstream;RootName:MSS_C0
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details||MSS_C0_generateBitstream.log;liberoaction://open_report/file/MSS_C0_generateBitstream.log||(null);(null)
