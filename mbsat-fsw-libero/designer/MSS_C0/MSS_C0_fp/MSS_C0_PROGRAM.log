@@ -15,18 +15,19 @@ programmer 'E2001Q8WDF' : Scan and Check Chain PASSED.
 programmer 'E2001Q8WDF' : device 'M2S010' : Executing action PROGRAM
 programmer 'E2001Q8WDF' : device 'M2S010' : Family: Igloo2
 programmer 'E2001Q8WDF' : device 'M2S010' : Product:      M2GL005
-programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007a6744
+programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007a6644
 programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT CRCERR[1] = 0
 programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT EDCERR[1] = 0
-programmer 'E2001Q8WDF' : device 'M2S010' : Programming FPGA Array...
+programmer 'E2001Q8WDF' : device 'M2S010' : Programming FPGA Array and eNVM...
 programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT Fabric component digest[256] = 0224b576d0703d2f8a7ce2528a3d91ce3922b0fcca7cd540842d975f88faad79
+programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT eNVM component digest[256] = e9a20d7dab147a6febd9fcb1a257490350ca0c782041e74c98de80bd5165217a
 programmer 'E2001Q8WDF' : device 'M2S010' : ===================================================================================
 programmer 'E2001Q8WDF' : device 'M2S010' : EXPORT DSN[128] = f7528c520df22d1b748b9246f23b1c15
 programmer 'E2001Q8WDF' : device 'M2S010' : ===================================================================================
-programmer 'E2001Q8WDF' : device 'M2S010' : Finished: Tue May 05 19:13:41 2020 (Elapsed time 00:00:23)
+programmer 'E2001Q8WDF' : device 'M2S010' : Finished: Mon May 11 15:39:58 2020 (Elapsed time 00:00:34)
 programmer 'E2001Q8WDF' : device 'M2S010' : Executing action PROGRAM PASSED.
 programmer 'E2001Q8WDF' : Chain programming PASSED.
-Chain Programming Finished: Tue May 05 19:13:41 2020 (Elapsed time 00:00:23)
+Chain Programming Finished: Mon May 11 15:39:58 2020 (Elapsed time 00:00:34)
 
                         o - o - o - o - o - o
 
