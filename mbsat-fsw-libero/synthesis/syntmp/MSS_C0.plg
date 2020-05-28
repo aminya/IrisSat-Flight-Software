@@ -12,6 +12,6 @@
 @P: MSS_C0 Part : m2s010tq144std
 @P: MSS_C0 Register bits  : 415 
 @P: MSS_C0 DSP Blocks  : 0
-@P: MSS_C0 I/O primitives : 22
+@P: MSS_C0 I/O primitives : 24
 @P: MSS_C0 RAM64x18 :  4
 @P:  CPU Time : 0h:00m:03s

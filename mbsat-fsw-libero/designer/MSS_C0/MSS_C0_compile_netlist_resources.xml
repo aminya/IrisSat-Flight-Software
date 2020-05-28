@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)</text>
-<text>Date: Fri May  1 17:05:22 2020
+<text>Date: Tue May  5 17:52:26 2020
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\synthesis\MSS_C0.vm</cell>
+ <cell>C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\MSS_C0.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -124,15 +124,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>22</cell>
+ <cell>24</cell>
  <cell>84</cell>
- <cell>26.19</cell>
+ <cell>28.57</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>22</cell>
+ <cell>24</cell>
  <cell>84</cell>
- <cell>26.19</cell>
+ <cell>28.57</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -348,7 +348,7 @@
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>15</cell>
+ <cell>17</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -386,7 +386,7 @@
  <cell> 3.30v</cell>
  <cell> N/A</cell>
  <cell> 5</cell>
- <cell> 15</cell>
+ <cell> 17</cell>
  <cell> 2</cell>
 </row>
 </table>
@@ -400,7 +400,7 @@
 <row>
  <cell>Locked</cell>
  <cell> 4</cell>
- <cell>18.18%</cell>
+ <cell>16.67%</cell>
 </row>
 <row>
  <cell>Placed</cell>
@@ -409,8 +409,8 @@
 </row>
 <row>
  <cell>UnPlaced</cell>
- <cell> 18</cell>
- <cell>81.82%</cell>
+ <cell> 20</cell>
+ <cell>83.33%</cell>
 </row>
 </table>
 <section><name>Nets assigned to chip global resources</name></section>

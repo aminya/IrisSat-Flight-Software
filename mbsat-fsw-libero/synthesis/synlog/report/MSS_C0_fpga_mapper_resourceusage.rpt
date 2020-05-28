@@ -24,11 +24,11 @@ SLE            415 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 23
-I/O primitives: 22
+I/O ports: 25
+I/O primitives: 24
 BIBUF          2 uses
 INBUF          5 uses
-OUTBUF         14 uses
+OUTBUF         16 uses
 TRIBUFF        1 use
 
 

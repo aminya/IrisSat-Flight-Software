@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "N-2018.03M-SP1-1"
 // Program "Synplify Pro", Mapper "mapact, Build 2461R"
-// Fri May  1 17:05:17 2020
+// Tue May  5 17:52:21 2020
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -11,32 +11,32 @@
 // file 2 "\c:\microsemi\libero_soc_v12.1\synplifypro\lib\vlog\umr_capim.v "
 // file 3 "\c:\microsemi\libero_soc_v12.1\synplifypro\lib\vlog\scemi_objects.v "
 // file 4 "\c:\microsemi\libero_soc_v12.1\synplifypro\lib\vlog\scemi_pipes.svh "
-// file 5 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_clockmux.v "
-// file 6 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v "
-// file 7 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v "
-// file 8 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v "
-// file 9 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_control.v "
-// file 10 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi.v "
-// file 11 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\corespi.v "
-// file 12 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\corespi_c0\corespi_c0.v "
-// file 13 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\corespi_c1\corespi_c1.v "
-// file 14 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v "
-// file 15 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v "
-// file 16 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v "
-// file 17 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\coreapb3_c0\coreapb3_c0.v "
-// file 18 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
-// file 19 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
-// file 20 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\coreresetp_c0\coreresetp_c0.v "
-// file 21 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.v "
-// file 22 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\fccc_c0\fccc_c0.v "
-// file 23 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\mss_c0_mss\mss_c0_mss_syn.v "
-// file 24 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\mss_c0_mss\mss_c0_mss.v "
-// file 25 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\actel\sgcore\osc\2.0.101\osc_comps.v "
-// file 26 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v "
-// file 27 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\osc_c0\osc_c0.v "
-// file 28 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\component\work\mss_c0\mss_c0.v "
+// file 5 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_clockmux.v "
+// file 6 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v "
+// file 7 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v "
+// file 8 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v "
+// file 9 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_control.v "
+// file 10 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi.v "
+// file 11 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\corespi.v "
+// file 12 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\corespi_c0\corespi_c0.v "
+// file 13 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\corespi_c1\corespi_c1.v "
+// file 14 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v "
+// file 15 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v "
+// file 16 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v "
+// file 17 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\coreapb3_c0\coreapb3_c0.v "
+// file 18 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
+// file 19 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
+// file 20 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\coreresetp_c0\coreresetp_c0.v "
+// file 21 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.v "
+// file 22 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\fccc_c0\fccc_c0.v "
+// file 23 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\mss_c0_mss\mss_c0_mss_syn.v "
+// file 24 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\mss_c0_mss\mss_c0_mss.v "
+// file 25 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\sgcore\osc\2.0.101\osc_comps.v "
+// file 26 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v "
+// file 27 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\osc_c0\osc_c0.v "
+// file 28 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\work\mss_c0\mss_c0.v "
 // file 29 "\c:\microsemi\libero_soc_v12.1\synplifypro\lib\nlconst.dat "
-// file 30 "\c:\users\howarth3-ins\desktop\mbsat-fsw-libero\designer\mss_c0\synthesis.fdc "
+// file 30 "\c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\designer\mss_c0\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module COREAPB3_MUXPTOB3 (
@@ -14158,6 +14158,8 @@ module MSS_C0_MSS (
   OR3_1_Y,
   OR3_0_Y,
   CAN_RX_F2M_c,
+  GPIO_9_M2F_c,
+  GPIO_8_M2F_c,
   GPIO_7_M2F_c,
   GPIO_6_M2F_c,
   GPIO_5_M2F_c,
@@ -14187,6 +14189,8 @@ input FCCC_C0_0_LOCK ;
 input OR3_1_Y ;
 input OR3_0_Y ;
 input CAN_RX_F2M_c ;
+output GPIO_9_M2F_c ;
+output GPIO_8_M2F_c ;
 output GPIO_7_M2F_c ;
 output GPIO_6_M2F_c ;
 output GPIO_5_M2F_c ;
@@ -14211,6 +14215,8 @@ wire FCCC_C0_0_LOCK ;
 wire OR3_1_Y ;
 wire OR3_0_Y ;
 wire CAN_RX_F2M_c ;
+wire GPIO_9_M2F_c ;
+wire GPIO_8_M2F_c ;
 wire GPIO_7_M2F_c ;
 wire GPIO_6_M2F_c ;
 wire GPIO_5_M2F_c ;
@@ -14350,9 +14356,7 @@ wire SPI0_SDI_MGPIO5A_H2F_A ;
 wire SPI0_SDO_MGPIO6A_H2F_A ;
 wire SPI0_SS0_MGPIO7A_H2F_A ;
 wire SPI0_SS1_MGPIO8A_H2F_A ;
-wire SPI0_SS1_MGPIO8A_H2F_B ;
 wire SPI0_SS2_MGPIO9A_H2F_A ;
-wire SPI0_SS2_MGPIO9A_H2F_B ;
 wire SPI0_SS3_MGPIO10A_H2F_A ;
 wire SPI0_SS3_MGPIO10A_H2F_B ;
 wire SPI0_SS4_MGPIO19A_H2F_A ;
@@ -14501,25 +14505,25 @@ wire SPI1_SS5_MGPIO18A_OE ;
 wire SPI1_SS6_MGPIO23A_OE ;
 wire SPI1_SS7_MGPIO24A_OE ;
 wire USBC_XCLK_OE ;
-// @24:831
+// @24:843
   BIBUF SPI_0_SS0_PAD (
 	.Y(SPI_0_SS0_PAD_Y),
 	.PAD(SPI_0_SS0),
 	.D(MSS_ADLIB_INST_SPI0_SS0_USBA_NXT_MGPIO7A_OUT),
 	.E(MSS_ADLIB_INST_SPI0_SS0_USBA_NXT_MGPIO7A_OE)
 );
-// @24:822
+// @24:834
   TRIBUFF SPI_0_DO_PAD (
 	.PAD(SPI_0_DO),
 	.D(MSS_ADLIB_INST_SPI0_SDO_USBA_STP_MGPIO6A_OUT),
 	.E(MSS_ADLIB_INST_SPI0_SDO_USBA_STP_MGPIO6A_OE)
 );
-// @24:814
+// @24:826
   INBUF SPI_0_DI_PAD (
 	.Y(SPI_0_DI_PAD_Y),
 	.PAD(SPI_0_DI)
 );
-// @24:803
+// @24:815
   BIBUF SPI_0_CLK_PAD (
 	.Y(SPI_0_CLK_PAD_Y),
 	.PAD(SPI_0_CLK),
@@ -14554,7 +14558,7 @@ defparam MSS_ADLIB_INST_RNIUFUQ.INIT=4'h8;
 	.Y(CoreAPB3_C0_0_APBmslave1_PSELx)
 );
 defparam MSS_ADLIB_INST_RNIR7C32.INIT=16'h0004;
-// @24:308
+// @24:320
   MSS_010 MSS_ADLIB_INST (
 	.CAN_RXBUS_MGPIO3A_H2F_A(CAN_RXBUS_MGPIO3A_H2F_A),
 	.CAN_RXBUS_MGPIO3A_H2F_B(GPIO_3_M2F_c),
@@ -14658,9 +14662,9 @@ defparam MSS_ADLIB_INST_RNIR7C32.INIT=16'h0004;
 	.SPI0_SS0_MGPIO7A_H2F_A(SPI0_SS0_MGPIO7A_H2F_A),
 	.SPI0_SS0_MGPIO7A_H2F_B(GPIO_7_M2F_c),
 	.SPI0_SS1_MGPIO8A_H2F_A(SPI0_SS1_MGPIO8A_H2F_A),
-	.SPI0_SS1_MGPIO8A_H2F_B(SPI0_SS1_MGPIO8A_H2F_B),
+	.SPI0_SS1_MGPIO8A_H2F_B(GPIO_8_M2F_c),
 	.SPI0_SS2_MGPIO9A_H2F_A(SPI0_SS2_MGPIO9A_H2F_A),
-	.SPI0_SS2_MGPIO9A_H2F_B(SPI0_SS2_MGPIO9A_H2F_B),
+	.SPI0_SS2_MGPIO9A_H2F_B(GPIO_9_M2F_c),
 	.SPI0_SS3_MGPIO10A_H2F_A(SPI0_SS3_MGPIO10A_H2F_A),
 	.SPI0_SS3_MGPIO10A_H2F_B(SPI0_SS3_MGPIO10A_H2F_B),
 	.SPI0_SS4_MGPIO19A_H2F_A(SPI0_SS4_MGPIO19A_H2F_A),
@@ -15116,6 +15120,8 @@ module MSS_C0 (
   GPIO_5_M2F,
   GPIO_6_M2F,
   GPIO_7_M2F,
+  GPIO_8_M2F,
+  GPIO_9_M2F,
   MMUART_0_TXD_M2F,
   SPISCLKO,
   SPISCLKO_0,
@@ -15141,6 +15147,8 @@ output GPIO_3_M2F ;
 output GPIO_5_M2F ;
 output GPIO_6_M2F ;
 output GPIO_7_M2F ;
+output GPIO_8_M2F ;
+output GPIO_9_M2F ;
 output MMUART_0_TXD_M2F ;
 output SPISCLKO ;
 output SPISCLKO_0 ;
@@ -15164,6 +15172,8 @@ wire GPIO_3_M2F ;
 wire GPIO_5_M2F ;
 wire GPIO_6_M2F ;
 wire GPIO_7_M2F ;
+wire GPIO_8_M2F ;
+wire GPIO_9_M2F ;
 wire MMUART_0_TXD_M2F ;
 wire SPISCLKO ;
 wire SPISCLKO_0 ;
@@ -15211,6 +15221,8 @@ wire GPIO_3_M2F_c ;
 wire GPIO_5_M2F_c ;
 wire GPIO_6_M2F_c ;
 wire GPIO_7_M2F_c ;
+wire GPIO_8_M2F_c ;
+wire GPIO_9_M2F_c ;
 wire MMUART_0_TXD_M2F_c ;
 wire SPISCLKO_c ;
 wire SPISCLKO_0_c ;
@@ -15224,116 +15236,126 @@ wire \CORESPI_C1_0.CORESPI_C1_0.USPI.rx_fifo_empty_i  ;
 wire \CORESPI_C0_0.CORESPI_C0_0.USPI.tx_fifo_full_i  ;
 wire \CORESPI_C1_0.CORESPI_C1_0.USPI.tx_fifo_full_i  ;
 wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
-// @28:41
+// @28:43
   INBUF CAN_RX_F2M_ibuf (
 	.Y(CAN_RX_F2M_c),
 	.PAD(CAN_RX_F2M)
 );
-// @28:43
+// @28:45
   INBUF MMUART_0_RXD_F2M_ibuf (
 	.Y(MMUART_0_RXD_F2M_c),
 	.PAD(MMUART_0_RXD_F2M)
 );
-// @28:44
+// @28:46
   INBUF SPISDI_ibuf (
 	.Y(SPISDI_c),
 	.PAD(SPISDI)
 );
-// @28:45
+// @28:47
   INBUF SPISDI_0_ibuf (
 	.Y(SPISDI_0_c),
 	.PAD(SPISDI_0)
 );
-// @28:50
+// @28:52
   OUTBUF CAN_TX_M2F_obuf (
 	.PAD(CAN_TX_M2F),
 	.D(CAN_TX_M2F_c)
 );
-// @28:51
+// @28:53
   OUTBUF GPIO_0_M2F_obuf (
 	.PAD(GPIO_0_M2F),
 	.D(GPIO_0_M2F_c)
 );
-// @28:52
+// @28:54
   OUTBUF GPIO_1_M2F_obuf (
 	.PAD(GPIO_1_M2F),
 	.D(GPIO_1_M2F_c)
 );
-// @28:53
+// @28:55
   OUTBUF GPIO_3_M2F_obuf (
 	.PAD(GPIO_3_M2F),
 	.D(GPIO_3_M2F_c)
 );
-// @28:54
+// @28:56
   OUTBUF GPIO_5_M2F_obuf (
 	.PAD(GPIO_5_M2F),
 	.D(GPIO_5_M2F_c)
 );
-// @28:55
+// @28:57
   OUTBUF GPIO_6_M2F_obuf (
 	.PAD(GPIO_6_M2F),
 	.D(GPIO_6_M2F_c)
 );
-// @28:56
+// @28:58
   OUTBUF GPIO_7_M2F_obuf (
 	.PAD(GPIO_7_M2F),
 	.D(GPIO_7_M2F_c)
 );
-// @28:57
+// @28:59
+  OUTBUF GPIO_8_M2F_obuf (
+	.PAD(GPIO_8_M2F),
+	.D(GPIO_8_M2F_c)
+);
+// @28:60
+  OUTBUF GPIO_9_M2F_obuf (
+	.PAD(GPIO_9_M2F),
+	.D(GPIO_9_M2F_c)
+);
+// @28:61
   OUTBUF MMUART_0_TXD_M2F_obuf (
 	.PAD(MMUART_0_TXD_M2F),
 	.D(MMUART_0_TXD_M2F_c)
 );
-// @28:58
+// @28:62
   OUTBUF SPISCLKO_obuf (
 	.PAD(SPISCLKO),
 	.D(SPISCLKO_c)
 );
-// @28:59
+// @28:63
   OUTBUF SPISCLKO_0_obuf (
 	.PAD(SPISCLKO_0),
 	.D(SPISCLKO_0_c)
 );
-// @28:60
+// @28:64
   OUTBUF SPISDO_obuf (
 	.PAD(SPISDO),
 	.D(SPISDO_c)
 );
-// @28:61
+// @28:65
   OUTBUF SPISDO_0_obuf (
 	.PAD(SPISDO_0),
 	.D(SPISDO_0_c)
 );
-// @28:62
+// @28:66
   OUTBUF SPISS_obuf (
 	.PAD(SPISS),
 	.D(SPISS_c)
 );
-// @28:63
+// @28:67
   OUTBUF SPISS_0_obuf (
 	.PAD(SPISS_0),
 	.D(SPISS_0_c)
 );
-// @28:459
+// @28:473
   SYSRESET SYSRESET_0 (
 	.POWER_ON_RESET_N(SYSRESET_0_POWER_ON_RESET_N),
 	.DEVRST_N(DEVRST_N)
 );
-// @28:442
+// @28:456
   OR3 OR3_1 (
 	.Y(OR3_1_Y),
 	.A(CORESPI_C1_0_SPIINT),
 	.B(\CORESPI_C1_0.CORESPI_C1_0.USPI.rx_fifo_empty_i ),
 	.C(\CORESPI_C1_0.CORESPI_C1_0.USPI.tx_fifo_full_i )
 );
-// @28:432
+// @28:446
   OR3 OR3_0 (
 	.Y(OR3_0_Y),
 	.A(CORESPI_C0_0_SPIINT),
 	.B(\CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i ),
 	.C(\CORESPI_C0_0.CORESPI_C0_0.USPI.tx_fifo_full_i )
 );
-// @28:276
+// @28:288
   CoreAPB3_C0 CoreAPB3_C0_0 (
 	.MSS_C0_MSS_0_FIC_0_APB_MASTER_PRDATA(MSS_C0_MSS_0_FIC_0_APB_MASTER_PRDATA[7:0]),
 	.prdata_regs_0(\CORESPI_C0_0.CORESPI_C0_0.USPI.prdata_regs [7:0]),
@@ -15344,7 +15366,7 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.un1_PADDR(\CORESPI_C0_0.CORESPI_C0_0.USPI.un1_PADDR ),
 	.CoreAPB3_C0_0_APBmslave1_PSELx(CoreAPB3_C0_0_APBmslave1_PSELx)
 );
-// @28:302
+// @28:314
   CoreResetP_C0 CoreResetP_C0_0 (
 	.CoreResetP_C0_0_MSS_HPMS_READY(CoreResetP_C0_0_MSS_HPMS_READY),
 	.FCCC_C0_0_GL0(FCCC_C0_0_GL0),
@@ -15352,7 +15374,7 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.MSS_C0_MSS_0_MSS_RESET_N_M2F(MSS_C0_MSS_0_MSS_RESET_N_M2F),
 	.MSS_C0_MSS_0_FIC_2_APB_M_PRESET_N(MSS_C0_MSS_0_FIC_2_APB_M_PRESET_N)
 );
-// @28:323
+// @28:335
   CORESPI_C0 CORESPI_C0_0 (
 	.rx_fifo_data_out(\CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_data_out [7:0]),
 	.CoreAPB3_C0_0_APBmslave0_PWDATA(CoreAPB3_C0_0_APBmslave0_PWDATA[7:0]),
@@ -15375,7 +15397,7 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.CORESPI_C0_0_SPIINT(CORESPI_C0_0_SPIINT),
 	.SPISS_c(SPISS_c)
 );
-// @28:350
+// @28:362
   CORESPI_C1 CORESPI_C1_0 (
 	.rx_fifo_data_out(\CORESPI_C1_0.CORESPI_C1_0.USPI.rx_fifo_data_out [7:0]),
 	.CoreAPB3_C0_0_APBmslave0_PWDATA(CoreAPB3_C0_0_APBmslave0_PWDATA[7:0]),
@@ -15397,13 +15419,13 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.CORESPI_C1_0_SPIINT(CORESPI_C1_0_SPIINT),
 	.SPISS_0_c(SPISS_0_c)
 );
-// @28:377
+// @28:389
   FCCC_C0 FCCC_C0_0 (
 	.FCCC_C0_0_GL0(FCCC_C0_0_GL0),
 	.FCCC_C0_0_LOCK(FCCC_C0_0_LOCK),
 	.OSC_C0_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(OSC_C0_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
-// @28:386
+// @28:398
   MSS_C0_MSS MSS_C0_MSS_0 (
 	.MSS_C0_MSS_0_FIC_0_APB_MASTER_PRDATA(MSS_C0_MSS_0_FIC_0_APB_MASTER_PRDATA[7:0]),
 	.CoreAPB3_C0_0_APBmslave0_PWDATA(CoreAPB3_C0_0_APBmslave0_PWDATA[7:0]),
@@ -15414,6 +15436,8 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.OR3_1_Y(OR3_1_Y),
 	.OR3_0_Y(OR3_0_Y),
 	.CAN_RX_F2M_c(CAN_RX_F2M_c),
+	.GPIO_9_M2F_c(GPIO_9_M2F_c),
+	.GPIO_8_M2F_c(GPIO_8_M2F_c),
 	.GPIO_7_M2F_c(GPIO_7_M2F_c),
 	.GPIO_6_M2F_c(GPIO_6_M2F_c),
 	.GPIO_5_M2F_c(GPIO_5_M2F_c),
@@ -15433,7 +15457,7 @@ wire \CORESPI_C0_0.CORESPI_C0_0.USPI.rx_fifo_empty_i  ;
 	.SPI_0_DO(SPI_0_DO),
 	.SPI_0_SS0(SPI_0_SS0)
 );
-// @28:452
+// @28:466
   OSC_C0 OSC_C0_0 (
 	.OSC_C0_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(OSC_C0_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
