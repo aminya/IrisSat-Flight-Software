@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>MSS_C0</design>
-	<target_verilog>C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\MSS_C0.vm</target_verilog>
+	<target_verilog>C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\synthesis\MSS_C0.vm</target_verilog>
 </SynplifyOutput>

@@ -188,7 +188,7 @@ Clock Tree ID     Driving Element                  Drive Element Type     Fanout
 
 Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 115MB peak: 146MB)
 
-Writing Analyst data base C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\MSS_C0_m.srm
+Writing Analyst data base C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\synthesis\synwork\MSS_C0_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 146MB)
 
@@ -215,7 +215,7 @@ Top view:               MSS_C0
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\synthesis.fdc
+Constraint File(s):    C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 

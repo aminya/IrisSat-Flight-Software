@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\synlog\MSS_C0_fpga_mapper.srr</data>
+<data>C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\synthesis\synlog\MSS_C0_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>

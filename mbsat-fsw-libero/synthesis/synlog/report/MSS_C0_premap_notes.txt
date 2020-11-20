@@ -49,4 +49,4 @@
 @N: BN362 :"c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Removing sequential instance mtx_oen (in view: CORESPI_LIB.spi_chanctrl_Z3_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\files\mbsat\working\manitobasat-flight-software\mbsat-fsw-libero\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Removing sequential instance mtx_oen (in view: CORESPI_LIB.spi_chanctrl_Z3_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
-@N: BN225 |Writing default property annotation file C:\Users\Files\MBSAT\working\ManitobaSat-Flight-Software\mbsat-fsw-libero\synthesis\MSS_C0.sap.
+@N: BN225 |Writing default property annotation file C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\synthesis\MSS_C0.sap.
