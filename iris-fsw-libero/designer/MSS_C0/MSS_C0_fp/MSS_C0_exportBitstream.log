@@ -1,0 +1,22 @@
+Software Version: 12.600.0.14
+Opened 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0.pdb' has been loaded successfully.
+DESIGN : MSS_C0;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Mon May 11 15:37:00 2020 (Elapsed time 00:00:01)
+The 'load_programming_data' command succeeded.
+File/Folder 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\export\MSS_C0.spi' will be overwritten.
+Successfully exported SPI master file: 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\export\MSS_C0.spi'; file programs Fabric and eNVM.
+Finished: Mon May 11 15:37:04 2020 (Elapsed time 00:00:04)
+
+The 'export_spi_master' command succeeded.
+File/Folder 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\export\MSS_C0.spidir' will be overwritten.
+Exported SPI Directory file 'C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\export\MSS_C0.spidir' successfully.
+The 'export_spi_directory' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0_fp\MSS_C0.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

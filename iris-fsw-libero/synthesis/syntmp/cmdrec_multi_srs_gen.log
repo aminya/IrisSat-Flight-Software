@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  MSS_C0  -multisrs  C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\synwork\MSS_C0_comp.srs  -osyn  C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\synwork\MSS_C0_mult.srs  -log  C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\synlog\MSS_C0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe -link -top MSS_C0 -multisrs ..\synwork\MSS_C0_comp.srs -osyn ..\synwork\MSS_C0_mult.srs -log ..\synlog\MSS_C0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\MSS_C0_comp.srs|io:i|time:1588719135|size:113491|exec:0|csum:3E12BCB2B7ED388807A4488730953264
+file:..\synwork\MSS_C0_mult.srs|io:o|time:1588719137|size:8200|exec:0|csum:
+file:..\synlog\MSS_C0_multi_srs_gen.srr|io:o|time:1588719137|size:1220|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1545375129|size:8731136|exec:1|csum:FDA9CE3068B3473AD3F7DDB573109F00

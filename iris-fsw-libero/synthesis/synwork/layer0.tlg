@@ -1,0 +1,574 @@
+Selecting top level module MSS_C0
+@N: CG775 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010100
+	UPR_NIBBLE_POSN=4'b0011
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\CoreAPB3_C0\CoreAPB3_C0.v":9:7:9:17|Synthesizing module CoreAPB3_C0 in library work.
+Running optimization stage 1 on CoreAPB3_C0 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000001
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z2
+Running optimization stage 1 on CoreResetP_Z2 .......
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\CoreResetP_C0\CoreResetP_C0.v":9:7:9:19|Synthesizing module CoreResetP_C0 in library work.
+Running optimization stage 1 on CoreResetP_C0 .......
+@N: CG775 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Component CORESPI not found in library "work" or "__hyper__lib__", but found in library CORESPI_LIB
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_CLK=32'b00000000000000000000000011111111
+	ZEROS=8'b00000000
+   Generated name = spi_rf_8s_255s_0
+Running optimization stage 1 on spi_rf_8s_255s_0 .......
+@W: CL208 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|All reachable assignments to bit 3 of control2[7:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+
+	CFG_FRAME_SIZE=32'b00000000000000000000000000001000
+   Generated name = spi_control_8s
+Running optimization stage 1 on spi_control_8s .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+
+	CFG_FRAME_SIZE=32'b00000000000000000000000000001000
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000001000
+	PTR_WIDTH=32'b00000000000000000000000000000011
+   Generated name = spi_fifo_8s_8s_3
+Running optimization stage 1 on spi_fifo_8s_8s_3 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+Running optimization stage 1 on spi_clockmux .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+
+	SPH=1'b0
+	SPO=1'b0
+	SPS=1'b1
+	CFG_MODE=32'b00000000000000000000000000000000
+	CFG_CLKRATE=32'b00000000000000000000000011111111
+	CFG_FRAME_SIZE=32'b00000000000000000000000000001000
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
+	MTX_IDLE1=4'b0000
+	MTX_IDLE2=4'b0001
+	MTX_MOTSTART=4'b0010
+	MTX_TISTART1=4'b0011
+	MTX_TISTART2=4'b0100
+	MTX_NSCSTART1=4'b0101
+	MTX_NSCSTART2=4'b0110
+	MTX_SHIFT1=4'b0111
+	MTX_SHIFT2=4'b1000
+	MTX_END=4'b1001
+	STXS_IDLE=1'b0
+	STXS_SHIFT=1'b1
+	MOTMODE=1'b1
+	TIMODE=1'b0
+	NSCMODE=1'b0
+	MOTNOSSEL=1'b1
+	NSCNOSSEL=1'b0
+	cfg_framesizeM1=32'b00000000000000000000000000000111
+   Generated name = spi_chanctrl_Z3
+@W: CG1340 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":132:12:132:21|Index into variable txfifo_dhold could be out of range ; a simulation mismatch is possible.
+@W: CG133 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":195:12:195:22|Object resetn_rx_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":196:12:196:22|Removing wire resetn_rx_p, as there is no assignment to it.
+@W: CG360 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":200:12:200:22|Removing wire resetn_rx_r, as there is no assignment to it.
+@W: CG133 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":222:12:222:36|Object stxs_txready_at_ssel_temp is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on spi_chanctrl_Z3 .......
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1130:0:1130:5|Pruning unused register msrxs_ssel. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning unused register stxs_oen. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":719:0:719:5|Pruning unused register spi_ssel_neg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_bitcnt[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_ssel. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":343:0:343:5|Sharing sequential element cfg_enable_P1. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_FRAME_SIZE=32'b00000000000000000000000000001000
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000001000
+	CFG_CLK=32'b00000000000000000000000011111111
+	SPO=1'b0
+	SPH=1'b0
+	SPS=1'b1
+	CFG_MODE=32'b00000000000000000000000000000000
+   Generated name = spi_8s_8s_8s_255s_0_0_1_0s
+Running optimization stage 1 on spi_8s_8s_8s_255s_0_0_1_0s .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_FRAME_SIZE=32'b00000000000000000000000000001000
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000001000
+	CFG_CLK=32'b00000000000000000000000011111111
+	CFG_MODE=32'b00000000000000000000000000000000
+	CFG_MOT_MODE=32'b00000000000000000000000000000000
+	CFG_MOT_SSEL=32'b00000000000000000000000000000001
+	CFG_TI_NSC_CUSTOM=32'b00000000000000000000000000000000
+	CFG_TI_NSC_FRC=32'b00000000000000000000000000000000
+	CFG_TI_JMB_FRAMES=32'b00000000000000000000000000000000
+	CFG_NSC_OPERATION=32'b00000000000000000000000000000000
+	SPS=1'b1
+	SPO=1'b0
+	SPH=1'b0
+   Generated name = CORESPI_Z4
+Running optimization stage 1 on CORESPI_Z4 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\CORESPI_C0\CORESPI_C0.v":9:7:9:16|Synthesizing module CORESPI_C0 in library work.
+Running optimization stage 1 on CORESPI_C0 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\CORESPI_C1\CORESPI_C1.v":9:7:9:16|Synthesizing module CORESPI_C1 in library work.
+Running optimization stage 1 on CORESPI_C1 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.v":5:7:5:28|Synthesizing module FCCC_C0_FCCC_C0_0_FCCC in library work.
+Running optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\FCCC_C0\FCCC_C0.v":9:7:9:13|Synthesizing module FCCC_C0 in library work.
+Running optimization stage 1 on FCCC_C0 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+Running optimization stage 1 on MSS_010 .......
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":910:7:910:29|*Output CAN_RXBUS_MGPIO3A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":911:7:911:29|*Output CAN_RXBUS_MGPIO3A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":912:7:912:30|*Output CAN_TX_EBL_MGPIO4A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":913:7:913:30|*Output CAN_TX_EBL_MGPIO4A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":914:7:914:29|*Output CAN_TXBUS_MGPIO2A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":915:7:915:29|*Output CAN_TXBUS_MGPIO2A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":916:7:916:20|*Output CLK_CONFIG_APB has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":917:7:917:15|*Output COMMS_INT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":918:7:918:21|*Output CONFIG_PRESET_N has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":919:13:919:22|*Output EDAC_ERROR has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":920:14:920:24|*Output F_FM0_RDATA has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":921:7:921:20|*Output F_FM0_READYOUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":922:7:922:16|*Output F_FM0_RESP has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":923:14:923:23|*Output F_HM0_ADDR has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":924:7:924:18|*Output F_HM0_ENABLE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":925:7:925:15|*Output F_HM0_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":926:13:926:22|*Output F_HM0_SIZE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":927:7:927:18|*Output F_HM0_TRANS1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":928:14:928:24|*Output F_HM0_WDATA has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":929:7:929:17|*Output F_HM0_WRITE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":930:7:930:18|*Output FAB_CHRGVBUS has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":931:7:931:21|*Output FAB_DISCHRGVBUS has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":932:7:932:20|*Output FAB_DMPULLDOWN has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":933:7:933:20|*Output FAB_DPPULLDOWN has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":934:7:934:17|*Output FAB_DRVVBUS has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":935:7:935:18|*Output FAB_IDPULLUP has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":936:13:936:22|*Output FAB_OPMODE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":937:7:937:18|*Output FAB_SUSPENDM has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":938:7:938:17|*Output FAB_TERMSEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":939:7:939:17|*Output FAB_TXVALID has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":940:13:940:24|*Output FAB_VCONTROL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":941:7:941:23|*Output FAB_VCONTROLLOADM has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":942:13:942:23|*Output FAB_XCVRSEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":943:13:943:24|*Output FAB_XDATAOUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":944:7:944:20|*Output FACC_GLMUX_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":945:13:945:26|*Output FIC32_0_MASTER has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":946:13:946:26|*Output FIC32_1_MASTER has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":947:7:947:18|*Output FPGA_RESET_N has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":948:7:948:13|*Output GTX_CLK has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":949:14:949:26|*Output H2F_INTERRUPT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":950:7:950:13|*Output H2F_NMI has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":951:7:951:14|*Output H2FCALIB has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":952:7:952:29|*Output I2C0_SCL_MGPIO31B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":953:7:953:29|*Output I2C0_SCL_MGPIO31B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":954:7:954:29|*Output I2C0_SDA_MGPIO30B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":955:7:955:29|*Output I2C0_SDA_MGPIO30B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":956:7:956:28|*Output I2C1_SCL_MGPIO1A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":957:7:957:28|*Output I2C1_SCL_MGPIO1A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":958:7:958:28|*Output I2C1_SDA_MGPIO0A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":959:7:959:28|*Output I2C1_SDA_MGPIO0A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":960:7:960:10|*Output MDCF has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":961:7:961:12|*Output MDOENF has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":962:7:962:10|*Output MDOF has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":963:7:963:32|*Output MMUART0_CTS_MGPIO19B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":964:7:964:32|*Output MMUART0_CTS_MGPIO19B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":965:7:965:32|*Output MMUART0_DCD_MGPIO22B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":966:7:966:32|*Output MMUART0_DCD_MGPIO22B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":967:7:967:32|*Output MMUART0_DSR_MGPIO20B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":968:7:968:32|*Output MMUART0_DSR_MGPIO20B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":969:7:969:32|*Output MMUART0_DTR_MGPIO18B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":970:7:970:32|*Output MMUART0_DTR_MGPIO18B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":971:7:971:31|*Output MMUART0_RI_MGPIO21B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":972:7:972:31|*Output MMUART0_RI_MGPIO21B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":973:7:973:32|*Output MMUART0_RTS_MGPIO17B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":974:7:974:32|*Output MMUART0_RTS_MGPIO17B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":975:7:975:32|*Output MMUART0_RXD_MGPIO28B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":976:7:976:32|*Output MMUART0_RXD_MGPIO28B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":977:7:977:32|*Output MMUART0_SCK_MGPIO29B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":978:7:978:32|*Output MMUART0_SCK_MGPIO29B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":979:7:979:32|*Output MMUART0_TXD_MGPIO27B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":980:7:980:32|*Output MMUART0_TXD_MGPIO27B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":981:7:981:32|*Output MMUART1_DTR_MGPIO12B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":982:7:982:32|*Output MMUART1_RTS_MGPIO11B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":983:7:983:32|*Output MMUART1_RTS_MGPIO11B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":984:7:984:32|*Output MMUART1_RXD_MGPIO26B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":985:7:985:32|*Output MMUART1_RXD_MGPIO26B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":986:7:986:32|*Output MMUART1_SCK_MGPIO25B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":987:7:987:32|*Output MMUART1_SCK_MGPIO25B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":988:7:988:32|*Output MMUART1_TXD_MGPIO24B_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":989:7:989:32|*Output MMUART1_TXD_MGPIO24B_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":990:7:990:15|*Output MPLL_LOCK has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":991:14:991:30|*Output PER2_FABRIC_PADDR has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":992:7:992:25|*Output PER2_FABRIC_PENABLE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":993:7:993:22|*Output PER2_FABRIC_PSEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":994:14:994:31|*Output PER2_FABRIC_PWDATA has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":995:7:995:24|*Output PER2_FABRIC_PWRITE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":996:7:996:15|*Output RTC_MATCH has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":997:7:997:15|*Output SLEEPDEEP has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":998:7:998:18|*Output SLEEPHOLDACK has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":999:7:999:14|*Output SLEEPING has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1000:7:1000:18|*Output SMBALERT_NO0 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1001:7:1001:18|*Output SMBALERT_NO1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1002:7:1002:16|*Output SMBSUS_NO0 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1003:7:1003:16|*Output SMBSUS_NO1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1004:7:1004:18|*Output SPI0_CLK_OUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1005:7:1005:28|*Output SPI0_SDI_MGPIO5A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1006:7:1006:28|*Output SPI0_SDI_MGPIO5A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1007:7:1007:28|*Output SPI0_SDO_MGPIO6A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1008:7:1008:28|*Output SPI0_SDO_MGPIO6A_H2F_B has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.v":1009:7:1009:28|*Output SPI0_SS0_MGPIO7A_H2F_A has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+
+Only the first 100 messages of id 'CL318' are reported. To see all messages use 'report_messages -log C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\synlog\MSS_C0_compiler.srr -id CL318' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL318} -count unlimited' in the Tcl shell.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+Running optimization stage 1 on BIBUF .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+Running optimization stage 1 on TRIBUFF .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0_MSS\MSS_C0_MSS.v":9:7:9:16|Synthesizing module MSS_C0_MSS in library work.
+Running optimization stage 1 on MSS_C0_MSS .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":168:7:168:9|Synthesizing module OR3 in library work.
+Running optimization stage 1 on OR3 .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\OSC_C0\OSC_C0.v":9:7:9:12|Synthesizing module OSC_C0 in library work.
+Running optimization stage 1 on OSC_C0 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+@N: CG364 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\MSS_C0\MSS_C0.v":9:7:9:12|Synthesizing module MSS_C0 in library work.
+Running optimization stage 1 on MSS_C0 .......
+Running optimization stage 2 on MSS_C0 .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on OSC_C0 .......
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Running optimization stage 2 on OR3 .......
+Running optimization stage 2 on MSS_C0_MSS .......
+Running optimization stage 2 on TRIBUFF .......
+Running optimization stage 2 on INBUF .......
+Running optimization stage 2 on BIBUF .......
+Running optimization stage 2 on MSS_010 .......
+Running optimization stage 2 on FCCC_C0 .......
+Running optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on CORESPI_C1 .......
+Running optimization stage 2 on CORESPI_C0 .......
+Running optimization stage 2 on CORESPI_Z4 .......
+Running optimization stage 2 on spi_8s_8s_8s_255s_0_0_1_0s .......
+@W: CL246 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":70:12:70:16|Input port bits 1 to 0 of PADDR[6:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on spi_chanctrl_Z3 .......
+@W: CL190 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 4 of stxs_bitsel[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 3 of stxs_bitsel[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+Extracted state machine for register mtx_state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0111
+   1000
+   1001
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+Running optimization stage 2 on spi_clockmux .......
+Running optimization stage 2 on spi_fifo_8s_8s_3 .......
+@N: CL134 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=8, width=1
+@N: CL134 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=8, width=8
+Running optimization stage 2 on spi_control_8s .......
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+Running optimization stage 2 on spi_rf_8s_255s_0 .......
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+Running optimization stage 2 on CoreResetP_C0 .......
+Running optimization stage 2 on CoreResetP_Z2 .......
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+Running optimization stage 2 on CoreAPB3_C0 .......
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\synwork\layer0.rt.csv
+
