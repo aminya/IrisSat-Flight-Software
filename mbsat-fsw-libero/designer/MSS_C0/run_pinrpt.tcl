@@ -1,6 +1,6 @@
 DESIGN=MSS_C0
-DESDIR=C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0
-TARGET_DIR=C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0
+DESDIR=C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0
+TARGET_DIR=C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

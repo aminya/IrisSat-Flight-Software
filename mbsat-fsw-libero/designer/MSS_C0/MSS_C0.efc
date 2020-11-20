@@ -18,7 +18,7 @@
         </version>
     </header>
     <nvm>
-        <region name="FSW_Program" address="0x000000" retrieveAddressFromFile="true" size="35504" format="HEX" type="Data Storage" wordSize="32" numberWords="8876" memFile="C:/Users/Files/MBSAT/working/IrisSat-Flight-Software/mbsat-fsw-softconsole/Production/mbsat-fsw-softconsole.hex" memType="INTELHEX" memFileTimeStamp="1589228251" clientType="public" program="true">
+        <region name="FSW_Program" address="0x000000" retrieveAddressFromFile="true" size="35504" format="HEX" type="Data Storage" wordSize="32" numberWords="8876" memFile="C:/Users/Files/MBSAT/working/IrisSat-Flight-Software/iris-fsw-softconsole/Production/iris-fsw-softconsole.hex" memType="INTELHEX" memFileTimeStamp="1589228251" clientType="public" program="true">
             00000120910100007f030000810300008303000085030000870300000000
             0000000000000000000000000000d15800008b03000000000000815a0000
             c95a000091030000930300007144000095440000990300009b0300009d03

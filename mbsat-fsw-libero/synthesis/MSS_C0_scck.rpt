@@ -16,7 +16,7 @@ Implementation : synthesis
 # Written on Tue May  5 17:52:17 2020
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\synthesis.fdc"
+Constraint File(s):      "C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\synthesis.fdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################

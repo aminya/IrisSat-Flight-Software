@@ -8,7 +8,7 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 24 fixed I/O macros, 0 unfixed I/O macros
@@ -40,12 +40,12 @@ Total Memory Usage: 117.5 Mbytes
 
 
 Router 
-Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Tue May  5 18:42:36 2020
+Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0Started: Tue May  5 18:42:36 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
+Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0
 Finished: Tue May  5 18:42:40 2020
 Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
 Total Memory Usage: 429.5 Mbytes
@@ -53,12 +53,12 @@ Total Memory Usage: 429.5 Mbytes
 
 
 Router 
-Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0Started: Tue May  5 18:42:41 2020
+Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0Started: Tue May  5 18:42:41 2020
 
 
 Router completed successfully.
 
-Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\mbsat-fsw-libero\designer\MSS_C0\MSS_C0
+Design: C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\designer\MSS_C0\MSS_C0
 Finished: Tue May  5 18:42:45 2020
 Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
 Total Memory Usage: 429.4 Mbytes

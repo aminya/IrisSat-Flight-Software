@@ -1,6 +1,6 @@
 new_project \
          -name {MSS_C0} \
-         -location {C:\Users\howarth3-INS\Desktop\mbsat-fsw-libero\designer\MSS_C0\MSS_C0_fp} \
+         -location {C:\Users\howarth3-INS\Desktop\iris-fsw-libero\designer\MSS_C0\MSS_C0_fp} \
          -mode {chain} \
          -connect_programmers {FALSE}
 add_actel_device \
