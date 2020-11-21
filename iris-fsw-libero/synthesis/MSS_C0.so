@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<SynplifyOutput>
-	<result>Success</result>
-	<design>MSS_C0</design>
-	<target_verilog>C:\Users\Files\MBSAT\working\IrisSat-Flight-Software\iris-fsw-libero\synthesis\MSS_C0.vm</target_verilog>
-</SynplifyOutput>
